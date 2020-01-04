@@ -1,0 +1,38 @@
+// .counter{
+// 	display:flex;
+// 	flex-direction:column;
+// 	width:30px;
+// 	margin:10px 0;
+// 	.counter-score{
+// 		text-align:center;
+// 	}
+// 	button{
+// 		border-radius:0;
+// 		font-size:20px;
+// 		border:0;
+// 		// background-color:lightgrey;
+// 		box-shadow: 0 4px 2px -2px gray;
+// 	}
+	
+// }
+
+.counter{
+	display:flex;
+	flex-direction:row-reverse;
+	// width:30px;
+	margin:10px 0;
+	.counter-score{
+		text-align:center;
+	}
+	button{
+		border-radius:0;
+		font-size:20px;
+		border:0;
+		background-color:lightgrey;
+		// box-shadow: 0 4px 2px -2px gray;
+		&:hover{
+			background-color:grey;
+		}
+	}
+	
+}

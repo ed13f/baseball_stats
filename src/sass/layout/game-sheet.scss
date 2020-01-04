@@ -1,0 +1,58 @@
+.score-book{
+	width:100%;
+	header.position{
+		display:flex;
+		width: 100%;
+		.player-info{
+			flex:2;
+			text-align: center;
+		}
+		.inning{
+			flex:1;
+			text-align: center;
+		}
+	}
+	div.position{
+		// padding:20px;
+		display:flex;
+		width: 100%;
+		.player-info{
+			// padding:20px 0px;
+			border: 1px solid grey;
+			flex:2;
+			text-align: center;
+			display:flex;
+			.batting-order{
+				width:30px;
+				// border: 1px solid grey;
+			}
+			.player-name{
+				.player-number{
+					font-size:0.85em;
+					font-weight:800;
+
+				}
+
+			}
+		}
+		.inning{
+			// padding:20px 0px;
+			border: 1px solid grey;
+			flex:1;
+			text-align: center;
+		}
+
+	}
+	
+}
+.game-profile{
+	.two-column{
+		height: calc(100vh - 95px);	
+		.col{
+			flex:1;
+			&.left{
+				flex:2;
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.player{
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+    header{
+    	background-color:transparent;
+    	margin:0 0 20px 0;
+        position:relative;
+    	h2.player-name{
+	    	margin:0;
+	    	.jersey-number{
+	    		font-size:0.8em;
+	    	}
+	    }
+	    div.player-details{
+	    	margin:0;
+	    }
+        button{
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-right: 10px;
+            border: none;
+            padding: 5px 10px;
+            background-color: #f2f2f2;
+        }
+    }
+    div.row{
+    	margin:5px 0;
+    }
+}

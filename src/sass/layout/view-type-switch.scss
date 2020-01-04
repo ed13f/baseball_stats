@@ -1,0 +1,17 @@
+.view-toggle{
+	padding-top: 20px;
+	button{
+		padding:5px 10px;
+		margin:0;
+		border:none;
+		border-left:1px solid lightgrey;
+		background-color:#f2f2f2;
+		&:first-child{
+			border-left:none;
+		}
+		&.active{
+			background-color:grey;
+			color:white;
+		}
+	}
+}

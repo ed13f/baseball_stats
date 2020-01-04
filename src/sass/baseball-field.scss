@@ -1,0 +1,360 @@
+.stadium{
+    max-height:429px;
+    max-width:600px;
+    width:100vw;
+    height:71vw;
+    position: relative;
+    overflow:hidden;
+    margin-left:-8px;
+}
+.field{ 
+    position:absolute;
+    top:-15%;
+    left:17%;
+    height:90%;
+    width:65%;
+    border-radius:1% 100% 1% 1%;
+    border:1px solid green;
+    background-color:green;
+   -webkit-transform: rotate(-45deg);
+}
+.in-field{ 
+    position:absolute;
+    top:31%;
+    left:31.5%;
+    height:50%;
+    width:36%;
+    border-radius:1% 50% 1% 1%;
+    // border:1px solid: #836539;
+    background-color:#836539; 
+   -webkit-transform: rotate(-45deg);
+}
+.base-lines{
+    position:absolute;
+    top: -36%;
+    left: 11.7%;
+    height:94%;
+    width:94%;
+    border-left:2px solid white;
+    border-bottom:2px solid white;
+    -webkit-transform: rotate(-45deg);
+}
+.in-field-grass{
+    position:absolute;
+    top: 48%;
+    left: 38.35%;
+    height:31%;
+    width:22%;
+    border:2px solid green;
+    background-color:green;
+    -webkit-transform: rotate(-45deg);
+}
+.base{
+    position:absolute;
+    height:2.5%;
+    width:2%;
+    z-index:2;
+    -webkit-transform: rotate(-45deg);
+    border:1px solid white;
+    background-color:white;
+}
+.first-base{
+    top: 62%;
+    left: 66.45%;
+}
+.second-base{
+    top: 37%;
+    left: 48.6%;
+}
+.thrid-base{
+    top: 62.2%;
+    left: 30.45%;
+}
+.home-plate{
+    position:absolute;
+    height:2%;
+    width:1.75%;
+    top:89%;
+    left:48.25%;
+    border:1px solid white;
+    background-color:white;
+}
+.home-plate:before, .home-plate:after{
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.home-plate:before{
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color:white;
+    border-width: 6.5px;
+    left: 50%;
+    margin-left: -6.5px;
+}
+.pitchers-mound{ 
+    position:absolute;
+    top:58%;
+    left:46%;
+    height:9%;
+    width:6.5%;
+    border-radius:100% 100% 100% 100%;
+    -webkit-transform: rotate(-45deg);
+     border:1px solid #836539;
+    background-color:#836539;
+}
+.pitchers-plate{ 
+    position:absolute;
+    top:62%;
+    left:48.1%;
+    height:1%;
+    width:2.5%;
+    border:1px solid white;
+    background-color:white;
+}
+.vertical{
+    position:absolute;
+    top:14px;
+    left:491px;
+    height:1115px;
+    width:1px;
+    border-left:1px solid black;
+}
+.half-circle{    
+    position:absolute;
+    height:5%;
+    width: 3.7%;
+    -webkit-transform: rotate(-45deg);
+    border:1px solid #836539;
+    background-color:#836539;
+}
+.third-circle{
+    top:61%;
+    left:33.5%;
+    border-radius:1% 1% 100% 1%;
+}
+.first-circle{
+    top:61%;
+    left:62%;
+    border-radius:100% 1% 1% 1%;
+}
+.second-circle{
+    top:42.25%;
+    left:47.5%;
+    border-radius:1% 1% 1% 100%;
+}
+.batters-box{
+    position:absolute;
+    height:4%;
+    width: 1.5%;
+    border:2px solid white;
+    background-color:#836539;
+    outline: 2px solid #836539;
+}
+.batters-box-right{
+    top:89%;
+    left:46%;
+}
+.batters-box-left{
+    top:89%;
+    left:50.5%;
+}
+.batting-circle{ 
+    position:absolute;
+    top:82%;
+    left:43.2%;
+    height:17%;
+    width:12.25%;
+    border-radius:100% 100% 100% 100%;
+   -webkit-transform: rotate(-45deg);
+     border:1px solid #836539;
+    background-color:#836539;
+}
+.first-base-thing{
+    top:430px;
+    left:667px;
+    position:absolute;
+    height:170px;
+    width:13px;
+    -webkit-transform: rotate(45deg);
+    border-right:2px solid white;
+    border-bottom:2px solid white;
+}
+.dot{
+    position:absolute;
+    height:3%;
+    width:2.2%;
+    border-radius:100% 100% 100% 100%;
+    -webkit-transform: rotate(-45deg);
+    //  border:1px solid red;
+    // background-color:red;
+}
+.P{
+    top: 61%;
+    left: 48.25%;
+}
+.C{
+    top: 85%;
+    left: 48.25%;
+}
+.one-B{
+    top: 52%;
+    left: 68%;
+}
+.two-B{
+    top: 38.5%;
+    left: 58%;
+}
+.three-B{
+    top: 52%;
+    left: 29%;
+}
+.SS{
+    top: 38.5%;
+    left: 38.5%;
+}
+.LF{
+    top: 25%;
+    left: 20%;
+}
+.CF{
+    top: 12%;
+    left: 48.25%;
+}
+.RF{
+    top: 25%;
+    left: 77%;
+}
+/*.baseline{
+    position: absolute;*/
+/*    height: 0;
+    width: 23%;*/
+    /*border-left: 2px solid white;
+    border-bottom: 2px solid white;*/
+    /*-webkit-transform: rotate(-45deg);*/
+/*}*/
+.baseline{
+    position: absolute;
+    top: 46%;
+    left: 36%;
+    height: 36.2%;
+    width: 26.4%;
+    border: 2px solid white;
+    border-bottom: 2px solid white;
+    -webkit-transform: rotate(-45deg);
+}
+.ball-marker{
+    position:absolute;
+    height:3%;
+    width:2.2%;
+    border-radius:100% 100% 100% 100%;
+    -webkit-transform: rotate(-45deg);
+    z-index:10
+    //  border:1px solid red;
+    // background-color:red;
+}
+.out{
+    border:1px solid red;
+    background-color:red;
+}
+.hit{
+    border:1px solid darkgreen;
+    background-color:darkgreen;
+}
+.neg-lg-transform-y{
+    transform:translateY(-30px);
+}
+.neg-lg-transform-x{
+    transform:translateX(-30px);
+}
+.neg-md-transform-y{
+    transform:translateY(-20px);
+}
+.neg-md-transform-x{
+    transform:translateX(-20px);
+}
+.neg-sm-transform-y{
+    transform:translateY(-10px);
+}
+.neg-sm-transform-x{
+    transform:translateX(-10px);
+}
+.sm-transform-y{
+    transform:translateY(10px);
+}
+.sm-transform-x{
+    transform:translateX(10px);
+}
+.md-transform-y{
+    transform:translateY(20px);
+}
+.md-transform-x{
+    transform:translateX(20px);
+}
+.lg-transform-y{
+    transform:translateY(30px);
+}
+.lg-transform-x{
+    transform:translateX(30px);
+}
+
+
+
+
+
+
+
+/*.line-1{
+    top: 60%;
+    left: 59%;
+    height: 34.2%;
+    width: 0;
+    transform: rotate(-135deg);
+    transform: rotate(-135deg);
+} 
+.line-2{
+    top: 34%;
+    left: 58.7%;
+    height: 34.2%;
+    width: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+} 
+.line-3{
+    top: 51.2%;
+    left: 27.7%;
+    height: 0;
+    width: 25%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
+} 
+.line-4{
+    top: 51.2%;
+    left: 27.7%;
+    height: 0;
+    width: 25%;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+
+}*/ 
+
+
+
+/*.mowed-grass{
+     background-color: #ac0;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -ms-linear-gradient(0deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -o-linear-gradient(0deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: linear-gradient(0deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    -webkit-background-size: 250px 250px;
+    -moz-background-size: 50px 50px;
+    background-size: 200px 200px;
+
+    background-color:#ac0
+}*/
