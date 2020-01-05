@@ -336,7 +336,7 @@ class App extends Component {
       }}>
       <BrowserRouter>
         <div className="scorebook">
-          <Route exact path="/" render={ () => <Header /> } />
+          <Route exact path="/" render={ () => <CoachProfile /> } />
           <Route exact path="/coaches" render={ () => <CoachProfile /> } />
           <Route exact path="/players" render={ () => <PlayerProfile /> } />
           <Route exact path="/games" render={ () => <GameProfile /> } />
