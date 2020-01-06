@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/baseball_stats/static/css/main.790ee2b7.chunk.css",
+    "main.css": "/baseball_stats/static/css/main.96fa585e.chunk.css",
     "main.js": "/baseball_stats/static/js/main.0f9a1c2b.chunk.js",
     "main.js.map": "/baseball_stats/static/js/main.0f9a1c2b.chunk.js.map",
     "runtime-main.js": "/baseball_stats/static/js/runtime-main.38ae4df6.js",
@@ -8,14 +8,14 @@
     "static/js/2.c1009298.chunk.js": "/baseball_stats/static/js/2.c1009298.chunk.js",
     "static/js/2.c1009298.chunk.js.map": "/baseball_stats/static/js/2.c1009298.chunk.js.map",
     "index.html": "/baseball_stats/index.html",
-    "precache-manifest.243b85b7dbaaec25da714128f34470d4.js": "/baseball_stats/precache-manifest.243b85b7dbaaec25da714128f34470d4.js",
+    "precache-manifest.03c92513d94b2d79ec5d0a2932e3f779.js": "/baseball_stats/precache-manifest.03c92513d94b2d79ec5d0a2932e3f779.js",
     "service-worker.js": "/baseball_stats/service-worker.js",
-    "static/css/main.790ee2b7.chunk.css.map": "/baseball_stats/static/css/main.790ee2b7.chunk.css.map"
+    "static/css/main.96fa585e.chunk.css.map": "/baseball_stats/static/css/main.96fa585e.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.38ae4df6.js",
     "static/js/2.c1009298.chunk.js",
-    "static/css/main.790ee2b7.chunk.css",
+    "static/css/main.96fa585e.chunk.css",
     "static/js/main.0f9a1c2b.chunk.js"
   ]
 }
