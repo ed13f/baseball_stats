@@ -3,7 +3,7 @@ import React from 'react'
 // Players - AtBats
 export const playerAtBats = ( player ) => {
 	// debugger
-	return player.atBats
+	return player.atBats ? player.atBats : []
 }
 export const playersAtBatsMulti = ( players ) => {
 	let atBatsArray = []
@@ -32,7 +32,8 @@ export const onBasePercentage = (player) =>{
 	// debugger
 	let onBase = atBats.filter(atBat => atBat.basePosition > 0);
 	let percentage = onBase.length/atBats.length
-	return (percentage  * 1000).toFixed(0)
+	let final = (percentage  * 1000).toFixed(0)
+	return !isNaN(final) ? final : 0;
 	// return percentage 
 }
 export const onBasePercentageMulti = ( players ) => {
@@ -49,7 +50,9 @@ export const battingAverage = (player) => {
 	let hits = atBats.filter(atBat => atBat.isHit != false);
 	let hitsCount = hits.length
 	let average = hitsCount/atBatsCount
-	return (average * 1000).toFixed(0)
+	let final = (average * 1000).toFixed(0)
+	
+	return !isNaN(final) ? final : 0;
 	// return average 
 }
 export const battingAverageMulti = (players) => {

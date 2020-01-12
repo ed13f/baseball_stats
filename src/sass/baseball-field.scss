@@ -51,7 +51,7 @@
 }
 .base{
     position:absolute;
-    height:2.5%;
+    height:2.8%;
     width:2%;
     z-index:2;
     -webkit-transform: rotate(-45deg);
@@ -59,16 +59,22 @@
     background-color:white;
 }
 .first-base{
+    // top: 62%;
+    // left: 66.45%;
     top: 62%;
-    left: 66.45%;
+    left: 66.24%;
 }
 .second-base{
-    top: 37%;
-    left: 48.6%;
+    // top: 37%;
+    // left: 48.6%;
+    top: 36.9%;
+    left: 48.4%;
 }
 .thrid-base{
+    // top: 62.2%;
+    // left: 30.45%;
     top: 62.2%;
-    left: 30.45%;
+    left: 30.2%;
 }
 .home-plate{
     position:absolute;
@@ -240,8 +246,8 @@
     position: absolute;
     top: 46%;
     left: 36%;
-    height: 36.2%;
-    width: 26.4%;
+    height: 36.3%;
+    width: 26.2%;
     border: 2px solid white;
     border-bottom: 2px solid white;
     -webkit-transform: rotate(-45deg);

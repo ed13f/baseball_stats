@@ -48,7 +48,7 @@ class AddPlayerFrom extends Component{
 			<Consumer>
 				{context => {
 					return(
-						<form onSubmit={ this.onSubmit }>
+						<form className="add-player" onSubmit={ this.onSubmit }>
 							<input type="text" name="firstName" value={firstName} Placeholder="First Name" onChange={this.onChange} />
 							<input type="text" name="lastName" value={lastName} Placeholder="Last Name" onChange={this.onChange} />
 							<input type="number" name="jerseyNumber" value={jerseyNumber} Placeholder="Jersey Number" onChange={this.onChange} />

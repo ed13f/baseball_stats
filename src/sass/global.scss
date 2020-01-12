@@ -31,6 +31,9 @@ h1{
 .break{
 	margin: 45px 30px;
 }
+.relative{
+	position:relative;
+}
 select{
 	border: 0;
     background-color: transparent;
@@ -47,4 +50,7 @@ button{
 	&:hover{
 		background-color:grey !important;
 	}
+}
+input{
+	&:focus {outline:0;}
 }

@@ -22,7 +22,9 @@ class App extends Component {
     teamInFocus:{},
     gameInFocus:{},
     atBatInFocus:{},
+    inningInFocus:{},
     viewType:"team",
+    addPlayer:false,
   }
 
   componentDidMount(){
@@ -50,7 +52,8 @@ class App extends Component {
         teams: data.teams,
         atBatInFocus: data.players[0].atBats[0],
         teamInFocus: data.teams[0],
-        gameInFocus: data.games[0]
+        gameInFocus: data.games[0],
+        inningInFocus: data.games[0].innings[0]
       });
   }
 
@@ -103,7 +106,14 @@ class App extends Component {
 
    setViewType = ( type ) => {
      this.setState(prevState => ({
-      viewType: type
+      viewType: type,
+      addPlayer: false
+    }))
+   }
+
+   setAddPlayerBoolean = ( bool ) => {
+     this.setState(prevState => ({
+      addPlayer: bool
     }))
    }
 
@@ -124,73 +134,125 @@ class App extends Component {
 
 
  // stateMap = ( game ) => {
- //    let atBatInFocus = this.state.atBatInFocus
+// let teamInFocus = this.state.teamInFocus
+//     let playerInFocus = this.state.playerInFocus
+//     let inningInFocus = this.state.inningInFocus
+//     let gameInFocus = this.state.gameInFocus
 
- //    let gameInFocus = this.state.gameInFocus
- //    let teamInFocus = this.state.teamInFocus
- //    let playerInFocus = this.state.playerInFocus
+//     //atBatInFocus
+//     let atBatInFocus = this.state.atBatInFocus
 
- //    let gameInFocusTeams = gameInFocus.teams
- //    let gameInFocusTeam = gameInFocusTeams.filter(singleTeam => singleTeam.id == teamInFocus.id)[0]
- //    let gameInFocusTeamPlayers = gameInFocusTeam.players
+//     //coach 
+//     let coach = this.state.coach
 
- //    let teamInFocusPlayers = teamInFocus.players
- //    let teamInFocusPlayersTeam = teamInFocusPlayers.filter(singlePlayer => singlePlayer.id == playerInFocus.id)[0]
- //    let teamInFocusPlayersTeamAtBats = teamInFocusPlayersTeam.atBats
+//     //gameInFocus
+//     let gameInFocusInnings = gameInFocus.innings
+//     let gameInFocusInning = gameInFocusInnings.filter(singleInning => singleInning.id == inningInFocus.id)[0]
+//     let indexGameInFocusInning = gameInFocusInnings.indexOf(gameInFocusInning)
 
- //    let teamInFocusGames =  teamInFocus.games
- //    let teamInFocusGame = teamInFocusGames.filter(singleGame => singleGame.id == gameInFocus.id)[0]
- //    let teamInFocusGameInnings = teamInFocusGame.innings
+//     let gameInFocusInningAtBats = gameInFocusInning.atBats
+//     let gameInFocusInningAtBat = gameInFocusInningAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexGameInFocusInningAtBat = gameInFocusInningAtBats.indexOf(gameInFocusInning)
+
+//     let gameInFocusTeams = gameInFocus.teams
+//     let gameInFocusTeam = gameInFocusTeams.filter(singleTeam => singleTeam.id == teamInFocus.id)[0]
+//     let indexGameInFocusTeam = gameInFocusTeams.indexOf(gameInFocusTeam)
+
+//     let gameInFocusTeamPlayers = gameInFocusTeam.players
+//     let gameInFocusTeamPlayer = gameInFocusTeamPlayers.filter(singlePlayer => singlePlayer.id == playerInFocus.id)[0]
+//     let indexGameInFocusTeamPlayer = gameInFocusTeamPlayers.indexOf(gameInFocusTeamPlayer)
+
+//     let gameInFocusTeamPlayerAtBats = gameInFocusTeamPlayer.atBats
+//     let gameInFocusTeamPlayerAtBat = gameInFocusTeamPlayerAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexInFocusTeamPlayerAtBat = gameInFocusTeamPlayerAtBats.indexOf(gameInFocusTeamPlayerAtBat)
+
+//     //inningInFocus
+//     let inningInFocusAtBats = inningInFocus.atBats
+//     let inningInFocusAtBat = inningInFocusAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexInningInFocusAtBat = inningInFocusAtBats.indexOf(inningInFocusAtBat)
+
+//     //playerInFocus
+//     let playerInFocusAtBats = playerInFocus.atBats
+//     let playerInFocusAtBat = playerInFocusAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexPlayerInFocusAtBat = playerInFocusAtBats.indexOf(playerInFocusAtBat)
+
+//     //players
+//     let players = this.state.players
+//     let player = players.filter(singlePlayer => singlePlayer.id == playerInFocus.id)[0]
+//     let indexPlayer = players.indexOf(player)
+
+//     let playerAtBats = player.atBats
+//     let playerAtBat = playerAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexPlayerAtBat = playerAtBats.indexOf(playerAtBat)
+
+//     //teamInFocus
+//     let teamInFocusGames = teamInFocus.games
+//     let teamInFocusGame = teamInFocusGames.filter(singleGame => singleGame.id == gameInFocus.id)[0]
+//     let indexTeamInFocusGame = teamInFocusGames.indexOf(teamInFocusGame)
+
+//     let teamInFocusGameInnings = teamInFocusGame.innings
+//     let teamInFocusGameInning = teamInFocusGameInnings.filter(singleInning => singleInning.id == inningInFocus.id)[0]
+//     let indexTeamInFocusGameInning = teamInFocusGameInnings.indexOf(teamInFocusGameInning)
+
+//     let teamInFocusGameInningAtBats = teamInFocusGameInning.atBats
+//     let teamInFocusGameInningAtBat = teamInFocusGameInningAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexTeamInFocusGameInningAtBat = teamInFocusGameInningAtBats.indexOf(teamInFocusGameInningAtBat)
+
+//     let teamInFocusPlayers = teamInFocus.players
+//     let teamInFocusPlayer = teamInFocusPlayers.filter(singlePlayer => singlePlayer.id == playerInFocus.id)[0]
+//     let indexTeamInFocusPlayer = teamInFocusPlayers.indexOf(teamInFocusGame)
+
+//     let teamInFocusPlayerAtBats = teamInFocusPlayer.atBats
+//     let teamInFocusPlayerAtBat = teamInFocusPlayerAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexTeamInFocusPlayerAtBat = teamInFocusPlayerAtBats.indexOf(teamInFocusPlayerAtBat)
+
+//     // Teams
+//     let teams = this.state.teams
+//     let team = teams.filter(singleTeam => singleTeam.id == teamInFocus.id)[0]
+//     let indexTeam = teams.indexOf(team)
+
+//     let teamGames = team.games
+//     let teamGame = teamGames.filter(singleGame => singleGame.id == gameInFocus.id)[0]
+//     let indexGame = teamGames.indexOf(teamGame)
+
+//     let teamGameInnings = teamGame.innings
+//     let teamGameInning = teamGameInnings.filter(singleInning => singleInning.id == inningInFocus.id)[0]
+//     let indexTeamGameInning = teamInFocusGameInnings.indexOf(teamInFocusGameInning)
+
+//     let teamGameInningAtBats = teamGameInning.atBats
+//     let teamGameInningAtBat = teamGameInningAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexTeamGameInningAtBat = teamGameInningAtBats.indexOf(teamGameInningAtBat)
+
+
+//     let teamPlayers = team.players
+//     let teamPlayer = teamPlayers.filter(singlePlayer => singlePlayer.id == playerInFocus.id)[0]
+//     let indexTeamPlayer = teamPlayers.indexOf(teamInFocusGame)
+
+//     let teamPlayerAtBats = teamPlayer.atBats
+//     let teamPlayerAtBat = teamPlayerAtBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0]
+//     let indexTeamPlayerAtBat = teamPlayerAtBats.indexOf(teamPlayerAtBat)
   
  // }
 
 
 
   handleAddPlayer = (playerData) => {
-    let atBatInFocus = this.state.atBatInFocus
-
-    let gameInFocus = this.state.gameInFocus
-    let teamInFocus = this.state.teamInFocus
-    let playerInFocus = this.state.playerInFocus
-
-    let gameInFocusTeams = gameInFocus.teams
-    let gameInFocusTeam = gameInFocusTeams.filter(singleTeam => singleTeam.id == teamInFocus.id)[0]
-    let indexGameInFocusTeams = gameInFocusTeams.indexOf(gameInFocusTeam)
-    let gameInFocusTeamPlayers = gameInFocusTeam.players
-
-    let teamInFocusPlayers = teamInFocus.players
-    let teamInFocusPlayersTeam = teamInFocusPlayers.filter(singlePlayer => singlePlayer.id == playerInFocus.id)[0]
-    let teamInFocusPlayersTeamAtBats = teamInFocusPlayersTeam.atBats
-
-    let teamInFocusGames =  teamInFocus.games
-    let teamInFocusGame = teamInFocusGames.filter(singleGame => singleGame.id == gameInFocus.id)[0]
-    let teamInFocusGameInnings = teamInFocusGame.innings
-    let teamInFocusGameTeams = teamInFocusGame.teams
-    let teamInFocusGameTeam = teamInFocusGameTeams.filter(singleTeam => singleTeam.id == teamInFocus.id)[0]
-    let teamInFocusGameTeamPlayers = teamInFocusGameTeam.players
-    let teamInFocusGameTeamPlayer = teamInFocusGameTeamPlayers.filter(singleTeam => singleTeam.id == teamInFocus.id)[0]
-    let teamInFocusGameTeamPlayerAtBats = teamInFocusGameTeamPlayer.atBats
-
-
-
-
-    debugger
-
-    console.log("yeeeeeeeerrrrrr")
     this.setState( prevState => {
     return {
         players: [
-          ...prevState.players,
-          playerData
+          playerData,
+          ...prevState.players
         ],
         playerInFocus: playerData,
         viewType: "player",
-        // teamInFocus: {
-        //   ...prevState.teamInFocus,
-        //   players: {
-        //     prevState.teamInFocus.baseValue, 
-        // }
-
+        addPlayer: false,
+        teamInFocus: {
+          ...prevState.teamInFocus,
+          players: [
+            ...prevState.teamInFocus.players, 
+            playerData
+          ]
+        }
       }
     });
   }
@@ -324,6 +386,8 @@ class App extends Component {
         atBatInFocus: this.state.atBatInFocus,
         playerInFocus: this.state.playerInFocus,
         viewType: this.state.viewType,
+        addPlayer: this.state.addPlayer,
+        inningInFocus: this.state.inningInFocus,
         action: {
           handleIncrement: this.handleIncrement,
           handlePlayerInFocus: this.handlePlayerInFocus,
@@ -331,15 +395,16 @@ class App extends Component {
           makeGameInFocus: this.makeGameInFocus,
           setViewType: this.setViewType,
           handleGameInFocus: this.handleGameInFocus,
-          handleAddPlayer: this.handleAddPlayer
+          handleAddPlayer: this.handleAddPlayer,
+          setAddPlayerBoolean: this.setAddPlayerBoolean
         }
       }}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="scorebook">
           <Route exact path="/" render={ () => <CoachProfile /> } />
-          <Route exact path="/coaches" render={ () => <CoachProfile /> } />
+          {/*<Route exact path="/coaches" render={ () => <CoachProfile /> } />
           <Route exact path="/players" render={ () => <PlayerProfile /> } />
-          <Route exact path="/games" render={ () => <GameProfile /> } />
+          <Route exact path="/games" render={ () => <GameProfile /> } />*/}
 
           </div>
         </BrowserRouter>

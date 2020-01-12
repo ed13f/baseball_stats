@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import PlayerCard from './PlayerCard'
-import AddPlayerFor from './AddPlayerForm';
+// import AddPlayerFor from './AddPlayerForm';
 import { Consumer } from '../Context';
 
 
@@ -33,13 +33,12 @@ class PlayerList extends PureComponent {
 		} = this.props;
 
 
-		// <AddPlayerFor handleAddPlayer={context.action.handleAddPlayer}/>
+		
 
 		return (
 			<Consumer>
 	    		{ context => (
 	    			<div className="players-list">
-
 	    				
 						{context.players.map( (player, index) =>
 		              		<PlayerCard 
