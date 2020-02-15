@@ -1,21 +1,21 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-import PlayerGameStatsCard from './PlayerGameStatsCard'
+// import PropTypes from 'prop-types';
+// import PlayerGameStatsCard from './PlayerGameStatsCard'
 import { Consumer } from '../Context';
 
 
 
 class PlayerGameStatsList extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// id: PropTypes.number,
 		// index: PropTypes.number,
-	};
+	// };
 
 	playerAtBats = () =>{
-		let atBats = this.props.playerInFocus.atBats
+		// let atBats = this.props.playerInFocus.atBats
 		// debugger
 		console.log(this.props.playerInFocus.atBats)
 		return 'atBats'
@@ -23,15 +23,15 @@ class PlayerGameStatsList extends PureComponent {
 
 	render(){
 
-		const {
-			playerInFocus,
+		// const {
+			// playerInFocus,
 			// lastName,
 			// id,
 			// number,
 			// position
-		} = this.props;
+		// } = this.props;
 
-		if (!this.props.atBatInFocus == {}) {
+		if (!this.props.atBatInFocus === {}) {
             return <div />
         }
 

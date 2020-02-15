@@ -1,26 +1,26 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
 
 
 
 class SlectField extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
-	}
+	// }
 
 	findTeamId = () =>{
 		let players = this.props.players
 		let atBatInFocus = this.props.atBatInFocus
 		let gameInFocus = this.props.gameInFocus
 		// debugger
-		let player = players.find(player => player.id == atBatInFocus.playerId)
+		let player = players.find(player => player.id === atBatInFocus.playerId)
 		let gameTeams = gameInFocus.teams
 		let awayTeam = gameTeams[0]
 		let homeTeam = gameTeams[1]
 		let awayTeamPlayers = awayTeam.players
-		awayTeamPlayers = awayTeamPlayers.filter(singleplayer => singleplayer.id == player.id);
+		awayTeamPlayers = awayTeamPlayers.filter(singleplayer => singleplayer.id === player.id);
 		if(awayTeamPlayers.length > 0){
 			return awayTeam.id 
 		} else {
@@ -48,7 +48,7 @@ class SlectField extends PureComponent {
 		    <Consumer>
 	    		{context => (
 	    			<div>
-	    				{attributeType == "baseValue" ? (
+	    				{attributeType === "baseValue" ? (
 	    					<select id="lang" onChange={(newValue) => context.action.selectChange(atBatInFocus.playerId, this.findTeamId(), newValue.target.value, attributeType )} value={atBatInFocus.baseValue}>
 					        	<option value="KK">KK</option>
 			                    <option value="BB">BB</option>

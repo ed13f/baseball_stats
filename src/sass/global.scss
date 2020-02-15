@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin:0;
 	// font-family: Helvetica;
@@ -42,15 +45,27 @@ select{
     width: 50px;
     font-size: 18px;
 }
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius:0px;
+}
 button{
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
-	border-radius:0;
-	&:focus {outline:0;}
+	border-radius: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius:0px;
+	margin: 0px;
 	&:hover{
-		background-color:grey !important;
+		@media (min-width: 900px) { background-color:grey !important;}
+
+	}
+	&.active{
+		background-color: grey !important;
+    	color: white;
 	}
 }
-input{
+input, select, button{
 	&:focus {outline:0;}
 }

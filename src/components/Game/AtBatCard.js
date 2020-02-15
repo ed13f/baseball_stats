@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Counter from './Counter';
 import SelectField from './SelectField';
 // import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
@@ -7,20 +7,20 @@ import SelectField from './SelectField';
 
 class AtBatCard extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// jerseyNumber: PropTypes.number,
 		// age: PropTypes.number,
 		// position: PropTypes.string,
 		// id: PropTypes.number
-	}
+	// }
 
 	findPlayer = () =>{
 		let players = this.props.players
 		let atBatInFocus = this.props.atBatInFocus
 		// debugger
-		let player = players.find(player => player.id == atBatInFocus.playerId)
+		let player = players.find(player => player.id === atBatInFocus.playerId)
 		return player
 	}
 
@@ -99,7 +99,6 @@ class AtBatCard extends PureComponent {
 			    	<span className="select-header">Position:</span>
 			    		<SelectField 
 		    				atBatInFocus={atBatInFocus}
-		    				atBatInFocus={atBatInFocus}
 			    			gameInFocus={gameInFocus}
 			    			players={players}
 			    			attributeType={"fieldPosition"}
@@ -108,7 +107,6 @@ class AtBatCard extends PureComponent {
 		    		<div className="column">
 			    		<span>Hit Value:</span>
 			    		<SelectField 
-		    				atBatInFocus={atBatInFocus}
 		    				atBatInFocus={atBatInFocus}
 			    			gameInFocus={gameInFocus}
 			    			players={players}

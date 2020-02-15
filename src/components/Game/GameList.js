@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import GameCard from './GameCard';
 import { Consumer } from '../Context';
 
@@ -7,12 +7,12 @@ import { Consumer } from '../Context';
 
 class GameList extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// id: PropTypes.number,
 		// index: PropTypes.number,
-	};
+	// };
 
 	
 
@@ -23,13 +23,13 @@ class GameList extends PureComponent {
 
 	render(){
 
-		const {
+		// const {
 			// firstName,
 			// lastName,
 			// id,
 			// number,
 			// position
-		} = this.props;
+		// } = this.props;
 
 		return (
 			<Consumer>
@@ -38,10 +38,9 @@ class GameList extends PureComponent {
 	    				
 						{context.teamInFocus.games.map( (game, index) =>
 		              		<GameCard 
-		              		gameInFocus = {game}
+		              		gameInFocus={game}
 				            key={game.id.toString()} 
 				            index={index} 
-				               
 				          />
 				        )}
 					</div>

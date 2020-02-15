@@ -2,4 +2,8 @@
 	// padding:20px;
 	height:calc(100vh - 156px);
 	overflow:scroll;
+	@media (max-width: 900px) { 
+		overflow: visible; 
+		height: initial;
+	}
 }

@@ -10,8 +10,8 @@ const Header = () => {
 	    	<li><a href="/league">League</a></li>
 	    </ul>
 	    <div className="account-options">
-	    	<a>login</a>
-	    	<a>logout</a>
+	    	<a href="/coaches" >login</a>
+	    	<a href="/coaches">logout</a>
 	    </div>
 	    </nav>
     </header>

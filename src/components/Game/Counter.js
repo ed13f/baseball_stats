@@ -1,14 +1,14 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
 
 
 
 class Counter extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
-	}
+	// }
 
 
 	findTeamId = () =>{
@@ -16,12 +16,12 @@ class Counter extends PureComponent {
 		let atBatInFocus = this.props.atBatInFocus
 		let gameInFocus = this.props.gameInFocus
 		// debugger
-		let player = players.find(player => player.id == atBatInFocus.playerId)
+		let player = players.find(player => player.id === atBatInFocus.playerId)
 		let gameTeams = gameInFocus.teams
 		let awayTeam = gameTeams[0]
 		let homeTeam = gameTeams[1]
 		let awayTeamPlayers = awayTeam.players
-		awayTeamPlayers = awayTeamPlayers.filter(singleplayer => singleplayer.id == player.id);
+		awayTeamPlayers = awayTeamPlayers.filter(singleplayer => singleplayer.id === player.id);
 		if(awayTeamPlayers.length > 0){
 			return awayTeam.id 
 		} else {
@@ -34,8 +34,8 @@ class Counter extends PureComponent {
 	  	const {
 			// player,
 			atBatInFocus,
-			players,
-			gameInFocus,
+			// players,
+			// gameInFocus,
 			attributeType,
 		} = this.props;
 

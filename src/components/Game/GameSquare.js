@@ -1,14 +1,14 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
 
 
 class GameSquare extends PureComponent {
 
-	static propTypes = {
-		id: PropTypes.number.isRequired,
-		index: PropTypes.number,
-	}
+	// static propTypes = {
+		// id: PropTypes.number.isRequired,
+		// index: PropTypes.number,
+	// }
 
 	ballsClassbuilder = (number) =>{
 		let atBat = this.props.atBat
@@ -18,7 +18,7 @@ class GameSquare extends PureComponent {
 	}
 
 	strikessClassbuilder = (number) =>{
-		let numbers = number
+		// let numbers = number
 		let atBat = this.props.atBat
 		let className = ""
 		if(atBat.strikes >= number ){ className += " active" }

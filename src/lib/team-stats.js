@@ -1,5 +1,6 @@
-import React from 'react'
-import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType, onBasePercentageMulti, battingAverageMulti, runsBattedInMulti, totalHitsByTypeMulti } from './player-stats';
+// import React from 'react'
+// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType, onBasePercentageMulti, battingAverageMulti, runsBattedInMulti, totalHitsByTypeMulti } from './player-stats';
+import { playersAtBatsMulti, playerHitsMulti, onBasePercentageMulti, battingAverageMulti, runsBattedInMulti, totalHitsByTypeMulti } from './player-stats';
 //Game Innings
 export const gameInnings = ( game ) => {
 	return game.innings
@@ -26,8 +27,8 @@ export const isGameWinner = ( game, teamInFocus ) => {
 	let players = teamInFocus.players
 	let playersIds = players.map(function(player){ return player.id })
 	let atBats = inningsAtBatsMulti(innings);
-	let totalRuns = atBats.filter(atBat => atBat.basePosition == 4)
-	let homeTeamRuns = atBats.filter(atBat => atBat.basePosition == 4 && playersIds.includes(atBat.playerId))
+	let totalRuns = atBats.filter(atBat => atBat.basePosition === 4)
+	let homeTeamRuns = atBats.filter(atBat => atBat.basePosition === 4 && playersIds.includes(atBat.playerId))
 	let result = totalRuns.length/2 > homeTeamRuns.length ? false : true;
 	return result
 }

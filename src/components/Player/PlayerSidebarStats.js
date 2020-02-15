@@ -1,36 +1,37 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-import { Consumer } from '../Context';
-import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
+// import PropTypes from 'prop-types';
+// import { Consumer } from '../Context';
+// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
+import { playerAtBats, playerHits, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
 
 
 
 class PlayerSidebarStats extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// jerseyNumber: PropTypes.number,
 		// age: PropTypes.number,
 		// position: PropTypes.string,
 		// id: PropTypes.number
-	}
+	// }
 
 	findPlayer = (props) =>{
 		let players = props.players
 		let atBatInFocus = props.atBatInFocus
-		let player = players.find(player => player.id == atBatInFocus.playerId)
+		let player = players.find(player => player.id === atBatInFocus.playerId)
 		return player
 	}
 
 	render(){
-	  	const {
-	  		atBatInFocus,
-			players,
-			gameInFocus,
+	  	// const {
+	  		// atBatInFocus,
+			// players,
+			// gameInFocus,
 			// player = this.findPlayer(this.props),
-			atBats
-		} = this.props;
+			// atBats
+		// } = this.props;
 
 		if (!this.props.atBatInFocus.id) {
             return <div />

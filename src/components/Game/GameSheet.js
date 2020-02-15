@@ -16,8 +16,8 @@ class GameSheet extends PureComponent {
 	render(){
 
 		const {
-			id,
-			teamIndex = 0,
+			// id,
+			// teamIndex = 0,
 			gameInFocus
 		} = this.props;
 		if (!this.props.gameInFocus.id) {
@@ -41,9 +41,9 @@ class GameSheet extends PureComponent {
 					<div className="inning nine">9</div>
 				</header>
 				{this.getTeamPlayers(gameInFocus).map( (player, index) => (
-					<div className="position one display-flex">
+					<div key={index} className="position one display-flex">
 						<GameSheetRow 
-							key={index}
+							// key={index}
 							player={player}
 							gameInFocus={gameInFocus}
 						/>

@@ -1,44 +1,42 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
 import BallMarker from './BallMarker';
-import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
+// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
+import { playerAtBats, playersAtBatsMulti } from '../../lib/player-stats';
+
 import { gameAtBats } from '../../lib/game-stats';
 
 
 
 class BaseballField extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// id: PropTypes.number.isRequired,
 		// index: PropTypes.number,
+	// }
+
+
+	findHitByViewType = (atBat, context) => {
+		let hitBoolValue = false;
+		if(context.hitViewType === "all"){hitBoolValue = true} 
+		if(context.hitViewType === "out" && !atBat.isHit){hitBoolValue = true} 
+		if(context.hitViewType === "hit" && atBat.isHit){hitBoolValue = true} 
+		return hitBoolValue
 	}
 
-	totalAtBats = ( ) => {
-		let players = this.props.teamInFocus.players;
-		let playersAtBats = playersAtBatsMulti(players);
-		let playersHits = playerHitsMulti(players);
-		// let playerHitsArray = playerHits(players[0]);
-		let playerOnBasePercentages = onBasePercentage(players[0]);
-		let playerBattingAverage = battingAverage(players[0]);
-		let playerRunsBattedIns = runsBattedIn(players[0]);
-		let playerTotalHitsByTypes = totalHitsByType(players[0], "CF");
-		return playerTotalHitsByTypes.length
-	}
-
-	displayAtBats = ( ) => {
-		return playerHitsMulti(this.props.TeamPlayers).map((player, index) => <BallMarker key={index} value={player.id} />) 
-	}
+	filterHitByViewType = (atBatList, context) => atBatList.filter((bat) => this.findHitByViewType(bat, context) && bat.baseValue !== "K" )
 
 	render(){
 
 		const {
-			teamInFocus,
-			id,
-			index,
+			// teamInFocus,
+			// id,
+			// index,
 			teamPlayers = this.props.teamInFocus.players,
 			player = this.props.playerInFocus,
-			teamHits = this.props.teamInFocus.players,
+
+			// teamHits = this.props.teamInFocus.players,
 			// TeamHits = playerHitsMulti(this.props.TeamPlayers)
 			// playersHits = playerHitsMulti(players)
 		} = this.props;
@@ -50,9 +48,9 @@ class BaseballField extends PureComponent {
 			<Consumer>
 	    		{ context => (
 					<div className="stadium">
-					{ context.viewType == "team" ? playersAtBatsMulti(teamPlayers).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat}/>) : null }
-					{ context.viewType == "player" ? playerAtBats(player).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat}/>) : null }
-					{ context.viewType == "game" ? gameAtBats(context.gameInFocus).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat}/>) : null }
+					{ context.viewType === "team" ? this.filterHitByViewType(playersAtBatsMulti(teamPlayers), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} />) : null }
+					{ context.viewType === "player" ? this.filterHitByViewType(playerAtBats(player), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} hitViewType={context.hitViewType} />) : null }
+					{ context.viewType === "game" ? this.filterHitByViewType(gameAtBats(context.gameInFocus), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} hitViewType={context.hitViewType} />) : null }
 				        <div className="field mowed-grass"></div>
 				        <div className="in-field"></div>
 				        <div className="in-field-grass mowed-grass"></div>
@@ -82,6 +80,11 @@ class BaseballField extends PureComponent {
 				        <div className="line-2 baseline"></div>
 				        <div className="line-3 baseline"></div>
 				        <div className="line-4 baseline"></div>
+				        <div className="view-toggle">
+				        	<button className={ context.hitViewType === "all" ? "active" : "" } onClick={() => context.action.setHitViewType("all")}>All</button>
+					        <button className={ context.hitViewType === "out" ? "active" : "" } onClick={() => context.action.setHitViewType("out")}>Out</button>
+					        <button className={ context.hitViewType === "hit" ? "active" : "" } onClick={() => context.action.setHitViewType("hit")}>Hit</button>
+				      	</div>
 				    </div>
 				)}
 			</Consumer>

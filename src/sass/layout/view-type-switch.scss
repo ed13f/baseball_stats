@@ -5,7 +5,7 @@
 		margin:0;
 		border:none;
 		border-left:1px solid lightgrey;
-		background-color:#f2f2f2;
+		background-color:#e6e6e6;
 		&:first-child{
 			border-left:none;
 		}
@@ -13,5 +13,22 @@
 			background-color:grey;
 			color:white;
 		}
+	}
+}
+.stadium{
+	.view-toggle{
+		position: absolute;
+	    z-index: 1;
+	    padding-top: 10px;
+	    bottom: 0;
+	    right: 0;
+	}
+}
+.game-card{
+	.view-toggle{
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    padding-top: 0;
 	}
 }

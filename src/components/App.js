@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { Provider } from './Context';
 import { jsonApiData } from '../lib/demo-api-json';
-import axios from 'axios';
+// import axios from 'axios';
 import {
   BrowserRouter,
   Route
 } from 'react-router-dom';
 
 
-import Header from './layout/Header';
+// import Header from './layout/Header';
 import CoachProfile from './Coach/CoachProfile';
-import PlayerProfile from './Player/PlayerProfile';
+// import PlayerProfile from './Player/PlayerProfile';
 import GameProfile from './Game/GameProfile';
 
 class App extends Component {
@@ -24,6 +24,7 @@ class App extends Component {
     atBatInFocus:{},
     inningInFocus:{},
     viewType:"team",
+    hitViewType:"all",
     addPlayer:false,
   }
 
@@ -64,16 +65,16 @@ class App extends Component {
   findGameAtBat = (playerId, teamId) => {
     let gameInFocus = this.state.gameInFocus
     let teams = gameInFocus.teams
-    let team = teams.filter(singleTeam => singleTeam.id == teamId)[0]; 
+    let team = teams.filter(singleTeam => singleTeam.id === teamId)[0]; 
     let teamIndex = teams.indexOf(team)
 
     let players = team.players
-    let player = players.filter(singlePlayer => singlePlayer.id == playerId)[0];
+    let player = players.filter(singlePlayer => singlePlayer.id === playerId)[0];
     let playerIndex = players.indexOf(player)
 
     let atBats = player.atBats
     let atBatInFocus = this.state.atBatInFocus
-    let atBat = atBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0];
+    let atBat = atBats.filter(singleAtBat => singleAtBat.id === atBatInFocus.id)[0];
     let atBatIndex = atBats.indexOf(atBat)
     return {team: team, teamIndex:teamIndex, player: player, playerIndex: playerIndex, atBat: atBat, atBatIndex: atBatIndex  }
   }
@@ -111,6 +112,12 @@ class App extends Component {
     }))
    }
 
+   setHitViewType = ( type ) => {
+     this.setState(prevState => ({
+      hitViewType: type
+    }))
+   }
+
    setAddPlayerBoolean = ( bool ) => {
      this.setState(prevState => ({
       addPlayer: bool
@@ -119,6 +126,7 @@ class App extends Component {
 
 
    handlePlayerInFocus = ( player ) => {
+     window.scrollTo(0, 0)
      this.setState(prevState => ({
       playerInFocus: player,
       viewType: "player"
@@ -126,6 +134,7 @@ class App extends Component {
    }
 
    handleGameInFocus = ( game ) => {
+     window.scrollTo(0, 0);
      this.setState(prevState => ({
       gameInFocus: game,
       viewType: "game"
@@ -292,6 +301,8 @@ class App extends Component {
           } 
         }))
         break;
+        default: 
+        break;
       }
   }
 
@@ -301,22 +312,22 @@ class App extends Component {
   handleIncrement = (playerId, teamId, delta, attributeType) => {
     let gameInFocus = this.state.gameInFocus
     let teams = gameInFocus.teams
-    let team = teams.filter(singleTeam => singleTeam.id == teamId)[0]; 
+    let team = teams.filter(singleTeam => singleTeam.id === teamId)[0]; 
     let teamIndex = teams.indexOf(team)
 
     let players = team.players
-    let player = players.filter(singlePlayer => singlePlayer.id == playerId)[0];
+    let player = players.filter(singlePlayer => singlePlayer.id === playerId)[0];
     let playerIndex = players.indexOf(player)
     let atBats = player.atBats
     let atBatInFocus = this.state.atBatInFocus
-    let atBat = atBats.filter(singleAtBat => singleAtBat.id == atBatInFocus.id)[0];
+    let atBat = atBats.filter(singleAtBat => singleAtBat.id === atBatInFocus.id)[0];
     // debugger
     console.log("gooott")
     let atBatIndex = atBats.indexOf(atBat)
 
     switch (attributeType) {
       case "balls":
-        if(atBatInFocus.balls > 0 && delta == -1 || atBatInFocus.balls < 4 && delta == 1){
+        if((atBatInFocus.balls > 0 && delta === -1) || (atBatInFocus.balls < 4 && delta === 1)){
           this.setState(prevState => ({
               atBatInFocus: {
                 ...prevState.atBatInFocus,
@@ -330,7 +341,7 @@ class App extends Component {
         }
         break;
       case "strikes":
-        if(atBatInFocus.strikes > 0 && delta == -1 || atBatInFocus.strikes < 3 && delta == 1){
+        if((atBatInFocus.strikes > 0 && delta === -1) || (atBatInFocus.strikes < 3 && delta === 1)){
           this.setState(prevState => ({
               atBatInFocus: {
                 ...prevState.atBatInFocus,
@@ -338,13 +349,13 @@ class App extends Component {
               },
               gameInFocus: {
                 ...prevState.gameInFocus,
-                ...prevState.gameInFocus.teams[teamIndex].players[playerIndex].atBats[atBatIndex].strikes =  atBat.strikes += delta 
+                ...prevState.gameInFocus.teams[teamIndex].players[playerIndex].atBats[atBatIndex].strikes = atBat.strikes += delta 
               } 
         }))
           }
         break;
       case "basePosition":
-        if(atBatInFocus.basePosition > 0 && delta == -1 || atBatInFocus.basePosition < 4 && delta == 1){
+        if((atBatInFocus.basePosition > 0 && delta === -1) || (atBatInFocus.basePosition < 4 && delta === 1)){
            this.setState(prevState => ({
               atBatInFocus: {
                 ...prevState.atBatInFocus,
@@ -358,7 +369,7 @@ class App extends Component {
         }
         break;
       case "runsBattedIn":
-        if(atBatInFocus.runsBattedIn > 0 && delta == -1 || atBatInFocus.runsBattedIn >= 0 && delta == 1){
+        if((atBatInFocus.runsBattedIn > 0 && delta === -1) || (atBatInFocus.runsBattedIn >= 0 && delta === 1)){
            this.setState(prevState => ({
               atBatInFocus: {
                 ...prevState.atBatInFocus,
@@ -371,6 +382,8 @@ class App extends Component {
           }))
         }
         break;
+      default: 
+        break; 
     }
   }
 
@@ -386,6 +399,7 @@ class App extends Component {
         atBatInFocus: this.state.atBatInFocus,
         playerInFocus: this.state.playerInFocus,
         viewType: this.state.viewType,
+        hitViewType: this.state.hitViewType,
         addPlayer: this.state.addPlayer,
         inningInFocus: this.state.inningInFocus,
         action: {
@@ -394,6 +408,7 @@ class App extends Component {
           selectChange: this.selectChange,
           makeGameInFocus: this.makeGameInFocus,
           setViewType: this.setViewType,
+          setHitViewType: this.setHitViewType,
           handleGameInFocus: this.handleGameInFocus,
           handleAddPlayer: this.handleAddPlayer,
           setAddPlayerBoolean: this.setAddPlayerBoolean
@@ -404,7 +419,8 @@ class App extends Component {
           <Route exact path="/" render={ () => <CoachProfile /> } />
           {/*<Route exact path="/coaches" render={ () => <CoachProfile /> } />
           <Route exact path="/players" render={ () => <PlayerProfile /> } />
-          <Route exact path="/games" render={ () => <GameProfile /> } />*/}
+          */}
+          <Route exact path="/games" render={ () => <GameProfile /> } />
 
           </div>
         </BrowserRouter>

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 // Players - AtBats
 export const playerAtBats = ( player ) => {
@@ -13,7 +13,7 @@ export const playersAtBatsMulti = ( players ) => {
 
 // Players - Hits
 export const playerHits = ( player ) => {
-	let totalHits = player.atBats.filter(atBat => atBat.isHit == true)
+	let totalHits = player.atBats.filter(atBat => atBat.isHit === true)
 	return totalHits
 }
 export const playerHitsMulti = ( players ) => {
@@ -47,7 +47,7 @@ export const onBasePercentageMulti = ( players ) => {
 export const battingAverage = (player) => {
 	let atBats = player.atBats
 	let atBatsCount = atBats.length
-	let hits = atBats.filter(atBat => atBat.isHit != false);
+	let hits = atBats.filter(atBat => atBat.isHit !== false);
 	let hitsCount = hits.length
 	let average = hitsCount/atBatsCount
 	let final = (average * 1000).toFixed(0)
@@ -80,7 +80,7 @@ export const runsBattedInMulti = ( players ) => {
 // Total Htist By Type
 export const totalHitsByType = (player, hitValueType) => {
 	let atBats = player.atBats
-	let hits = atBats.filter(atBat => atBat.baseValue == hitValueType);
+	let hits = atBats.filter(atBat => atBat.baseValue === hitValueType);
 	return hits.length
 }
 export const totalHitsByTypeMulti = ( players, hitValueType ) => {

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import Header from '../layout/Header';
 import TwoColumn from '../layout/TwoColumn';
@@ -14,17 +14,17 @@ import { Consumer } from '../Context';
 
 class GameProfile extends PureComponent {
 
-	static propTypes = {
-		id: PropTypes.number.isRequired,
-		index: PropTypes.number,
-	}
+	// static propTypes = {
+	// 	id: PropTypes.number.isRequired,
+	// 	index: PropTypes.number,
+	// }
 
 	render(){
-		const {
-			teamInFocus,
-			id,
-			index
-		} = this.props;
+		// const {
+			// teamInFocus,
+			// id,
+			// index
+		// } = this.props;
 
 		return (
 			<div className="game-profile">

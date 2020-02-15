@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-import PlayerCard from '../Player/PlayerCard';
-import CoachList from '../Coach/CoachList';
+// import PlayerCard from '../Player/PlayerCard';
+// import CoachList from '../Coach/CoachList';
 import PlayerGameStatsList from './PlayerGameStatsList';
-import TeamStats from '../Team/TeamStats';
+// import TeamStats from '../Team/TeamStats';
 import Header from '../layout/Header';
 import TwoColumn from '../layout/TwoColumn';
 import BaseballField from '../layout/BaseballField';
@@ -21,12 +21,12 @@ class CoachProfile extends PureComponent {
 	}
 
 	render(){
-		const {
-			teamInFocus,
-			id,
-			index,
-			playerInFocus,
-		} = this.props;
+		// const {
+			// teamInFocus,
+			// id,
+			// index,
+			// playerInFocus,
+		// } = this.props;
 
 		return (
 			<div className="coach-profile">

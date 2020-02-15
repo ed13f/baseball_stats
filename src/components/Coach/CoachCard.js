@@ -17,9 +17,6 @@ class CoachCard extends PureComponent {
 	  	const {
 			first_name,
 			last_name,
-			id,
-			email,
-			phone
 		} = this.props;
 
 		return (

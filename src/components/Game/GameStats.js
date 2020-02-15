@@ -1,28 +1,32 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
-import { gameAtBats, gameAtBatsByTeam, inningRuns, inningRunsByTeam, gameRunsByTeam, gameHitsByTeam, gameErrorsByTeam } from '../../lib/game-stats';
+import { inningRunsByTeam, gameRunsByTeam, gameHitsByTeam, gameErrorsByTeam } from '../../lib/game-stats';
 import { isGameWinner } from '../../lib/team-stats';
 
 
 
 class GameStats extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// jerseyNumber: PropTypes.number,
 		// age: PropTypes.number,
 		// position: PropTypes.string,
 		// id: PropTypes.number
+	// }
+	abreviation = ( teamName ) => {
+		let shortName = teamName.substring(0, 3).toUpperCase();
+		return shortName
 	}
 
 	render(){
-	  	const {
-			player,
-			atBats,
-			handlePlayerInFocus
-		} = this.props;
+	  	// const {
+			// player,
+			// atBats,
+			// handlePlayerInFocus
+		// } = this.props;
 
 		if (!this.props.gameInFocus.id) {
             return <div />
@@ -84,7 +88,7 @@ class GameStats extends PureComponent {
 			    			</div>
 							<div className="row display-flex">
 			    				<div className="flex-2">
-			    					{context.gameInFocus.teams[0].name}
+			    					{this.abreviation(context.gameInFocus.teams[0].name)}
 			    				</div>
 			    				<div className="flex-1">
 			    					{ inningRunsByTeam(context.gameInFocus.innings[0], context.gameInFocus.teams[0]).length }
@@ -128,7 +132,7 @@ class GameStats extends PureComponent {
 			    			</div>
 			    			<div className="row display-flex">
 			    				<div className="flex-2">
-			    					{context.gameInFocus.teams[1].name}
+			    					{this.abreviation(context.gameInFocus.teams[1].name)}
 			    				</div>
 			    				<div className="flex-1">
 			    					{ inningRunsByTeam(context.gameInFocus.innings[0], context.gameInFocus.teams[1]).length }

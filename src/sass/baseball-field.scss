@@ -6,6 +6,29 @@
     position: relative;
     overflow:hidden;
     margin-left:-8px;
+    @media (max-width: 1100px) { 
+        max-height:343px;
+        max-width:480px;
+    }
+    @media (max-width: 950px) { 
+        max-height:257.5px;
+        max-width:360px;
+    }
+    @media (max-width: 900px) { 
+        // max-height:300px;
+        // max-width:420px;
+        margin:auto;
+    }
+    @media (max-width: 765px) { 
+        max-height:300px;
+        max-width:420px;
+        // margin:auto;
+    }
+    @media (max-width: 500px) { 
+        max-height:236px;
+        max-width:330px;
+        // margin:auto;
+    }
 }
 .field{ 
     position:absolute;
@@ -84,6 +107,8 @@
     left:48.25%;
     border:1px solid white;
     background-color:white;
+    z-index:2;
+    // @media (max-width: 900px) { display:none;}
 }
 .home-plate:before, .home-plate:after{
     top: 100%;
@@ -93,6 +118,10 @@
     width: 0;
     position: absolute;
     pointer-events: none;
+    @media (max-width: 950px) { 
+        margin-left: -4.5px !important;
+        border-width: 5px !important;
+    }
 }
 .home-plate:before{
     border-color: rgba(194, 225, 245, 0);
@@ -151,6 +180,10 @@
     top:42.25%;
     left:47.5%;
     border-radius:1% 1% 1% 100%;
+    @media (max-width: 500px) {
+        top: 42%;
+        left: 48%;
+    }
 }
 .batters-box{
     position:absolute;
@@ -251,6 +284,11 @@
     border: 2px solid white;
     border-bottom: 2px solid white;
     -webkit-transform: rotate(-45deg);
+    @media (max-width: 500px) {
+        border: 1.5px solid white;
+        height: 36.2%;
+        width: 26.7%;
+    }
 }
 .ball-marker{
     position:absolute;
@@ -272,39 +310,75 @@
 }
 .neg-lg-transform-y{
     transform:translateY(-30px);
+    @media (max-width: 1100px) {transform:translateY(-20px); }
+    @media (max-width: 950px) { transform:translateY(-15px); }
+    @media (max-width: 500px) { transform:translateY(-10px); }
 }
 .neg-lg-transform-x{
     transform:translateX(-30px);
+    @media (max-width: 1100px) {transform:translateX(-20px); }
+    @media (max-width: 950px) { transform:translateX(-15px); }
+    @media (max-width: 500px) { transform:translateX(-10px); }
 }
 .neg-md-transform-y{
     transform:translateY(-20px);
+    @media (max-width: 1100px) {transform:translateY(-13px); }
+    @media (max-width: 950px) { transform:translateY(-7px); }
+    @media (max-width: 500px) { transform:translateY(-4px); }
 }
 .neg-md-transform-x{
     transform:translateX(-20px);
+    @media (max-width: 1100px) {transform:translateX(13px); }
+    @media (max-width: 950px) { transform:translateX(7px); }
+    @media (max-width: 500px) { transform:translateX(4px); }
 }
 .neg-sm-transform-y{
     transform:translateY(-10px);
+    @media (max-width: 1100px) {transform:translateY(-7px); }
+    @media (max-width: 950px) { transform:translateY(-4px); }
+    @media (max-width: 500px) { transform:translateY(-2px); }
 }
 .neg-sm-transform-x{
     transform:translateX(-10px);
+    @media (max-width: 1100px) {transform:translateX(-7px); }
+    @media (max-width: 950px) { transform:translateX(-4px); }
+    @media (max-width: 500px) { transform:translateX(-2px); }
 }
 .sm-transform-y{
     transform:translateY(10px);
+    @media (max-width: 1100px) {transform:translateY(7px); }
+    @media (max-width: 950px) { transform:translateY(4px); }
+    @media (max-width: 500px) { transform:translateY(2px); }
 }
 .sm-transform-x{
     transform:translateX(10px);
+    @media (max-width: 1100px) {transform:translateX(7px); }
+    @media (max-width: 950px) { transform:translateX(4px); }
+    @media (max-width: 500px) { transform:translateX(2px); }
 }
 .md-transform-y{
     transform:translateY(20px);
+    @media (max-width: 1100px) {transform:translateY(13px); }
+    @media (max-width: 950px) { transform:translateY(7px); }
+    @media (max-width: 500px) { transform:translateY(4px); }
 }
 .md-transform-x{
     transform:translateX(20px);
+    @media (max-width: 1100px) {transform:translateX(13px); }
+    @media (max-width: 950px) { transform:translateX(7px); }
+    @media (max-width: 500px) { transform:translateX(4px); }
 }
 .lg-transform-y{
     transform:translateY(30px);
+    @media (max-width: 1100px) {transform:translateY(20px); }
+    @media (max-width: 950px) { transform:translateY(15px); }
+    @media (max-width: 500px) { transform:translateY(10px); }
 }
 .lg-transform-x{
     transform:translateX(30px);
+    @media (max-width: 1100px) {transform:translateX(20px); }
+    @media (max-width: 950px) { transform:translateX(15px); }
+    @media (max-width: 500px) { transform:translateX(10px); }
 }
 
 

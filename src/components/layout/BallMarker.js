@@ -21,9 +21,9 @@ class BallMaker extends PureComponent {
 	classBuilder = ( ) => {
 		let classPrefix = ["neg-lg", "neg-md", "neg-sm", "zero", "sm", "md", "lg"]
 		let hitPosition = this.hitPosition()
-		hitPosition += hitPosition == "1B" ? " one-B" : "";
-		hitPosition += hitPosition == "2B" ? " two-B" : "";
-		hitPosition += hitPosition == "3B" ? " three-B" : "";
+		hitPosition += hitPosition === "1B" ? " one-B" : "";
+		hitPosition += hitPosition === "2B" ? " two-B" : "";
+		hitPosition += hitPosition === "3B" ? " three-B" : "";
 		let isHit = this.isHit() ? "hit" : "out"
 		let positionX = classPrefix[Math.floor(Math.random() * classPrefix.length)];
 		let positionY = classPrefix[Math.floor(Math.random() * classPrefix.length)];
@@ -32,9 +32,9 @@ class BallMaker extends PureComponent {
 
 	render(){
 
-		const {
-			id
-		} = this.props;
+		// const {
+		// 	id
+		// } = this.props;
 
 		return (
 			<i className={this.classBuilder()}></i>

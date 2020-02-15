@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import PlayerCard from './PlayerCard'
 // import AddPlayerFor from './AddPlayerForm';
 import { Consumer } from '../Context';
@@ -8,29 +8,29 @@ import { Consumer } from '../Context';
 
 class PlayerList extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// id: PropTypes.number,
 		// index: PropTypes.number,
-	};
+	// };
 
 	
 
-	handlePlayerInFocus = ( ) => {
-		let games = this.props.teamInFocus.games;
-		return "atBats.length"
-	}
+	// handlePlayerInFocus = ( ) => {
+	// 	let games = this.props.teamInFocus.games;
+	// 	return "atBats.length"
+	// }
 
 	render(){
 
-		const {
+		// const {
 			// firstName,
 			// lastName,
 			// id,
 			// number,
 			// position
-		} = this.props;
+		// } = this.props;
 
 
 		

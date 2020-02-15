@@ -1,18 +1,44 @@
 .coach-profile{
 	.two-column{
 		// height: calc(100vh - 95px);	
-		height: calc(100vh - 50px);	
+		height: calc(100vh - 55px);	
 		overflow:hidden;
+		@media (max-width: 900px) { 
+	        flex-direction:column;
+	        padding:0;
+	        overflow: initial;
+	        height: initial;
+	    }
 		.col{
 			flex:1;
 			padding: 0 20px;
 			&.left{
-				// display: flex;
-			 //    flex-direction: column;
-			 //    justify-content: center;
-			 padding-top:30px;
+				padding-top:30px;
+				@media (max-width: 900px) { 
+			        background-image: linear-gradient(#ffffff, #ffffff, #f2f2f2);
+			    }
+			    @media (max-width: 765px) { 
+			        background-image: linear-gradient(#ffffff, #ffffff, #f2f2f2, #f2f2f2, #f2f2f2);
+			    }
+				.left-wrapper{
+			 		@media (max-width: 900px) { 
+			        	display:flex;
+			        	padding: 30px 0;
+			        	& > div,
+			        	& > article{
+			        		flex:1;
+
+			        	}
+			    	}
+			    	@media (max-width: 765px) { 
+				        display:block;
+				    }
+				}
 			}
-			&.left{
+			&.right{
+				// @media (max-width: 900px) { 
+			 //        background-color:#f2f2f2;
+			 //    }
 			}
 		}
 	}
@@ -23,6 +49,14 @@
     	display: flex;
     	justify-content: space-between;
     	position:relative;
+    	@media (max-width: 900px) { 
+	        position: sticky; 
+	    	top: 0px;
+	    	background-color:#ffffff;
+	    	z-index:2;
+	    	height:67px;
+	    }
+    	
     	.header-wrapper{
     		h1{
 	    		margin:10px 0 0;
@@ -34,7 +68,8 @@
     		padding:5px 10px;
 			margin:0;
 			border:none;
-			background-color:#f2f2f2;
+			background-color:darkgreen;
+			color:#ffffff;
 			bottom:0;
 			right:0;
 

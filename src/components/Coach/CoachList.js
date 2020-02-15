@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import CoachCard from './CoachCard'
 import { Consumer } from '../Context';
 
@@ -7,21 +7,21 @@ import { Consumer } from '../Context';
 
 class CoachList extends PureComponent {
 
-	static propTypes = {
-		first_name: PropTypes.string,
-		last_name: PropTypes.string,
-		id: PropTypes.number.isRequired,
-		index: PropTypes.number,
-	};
+	// static propTypes = {
+	// 	first_name: PropTypes.string,
+	// 	last_name: PropTypes.string,
+	// 	id: PropTypes.number.isRequired,
+	// 	index: PropTypes.number,
+	// };
 
 	render(props){
 
-		const {
-			first_name,
-			last_name,
-			id,
-			index
-		} = this.props;
+		// const {
+		// 	first_name,
+		// 	last_name,
+		// 	id,
+		// 	index
+		// } = this.props;
 
 		return (
 			<Consumer>

@@ -1,25 +1,31 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
-import { gameAtBats, gameAtBatsByTeam, inningRuns, inningRunsByTeam, gameRunsByTeam, gameHitsByTeam, gameErrorsByTeam } from '../../lib/game-stats';
+// import { gameAtBats, gameAtBatsByTeam, inningRuns, inningRunsByTeam, gameRunsByTeam, gameHitsByTeam, gameErrorsByTeam } from '../../lib/game-stats';
+import { gameRunsByTeam, gameHitsByTeam, gameErrorsByTeam } from '../../lib/game-stats';
 
 
 
 class GameCard extends PureComponent {
 
-	static propTypes = {
+	// static propTypes = {
 		// firstName: PropTypes.string,
 		// lastName: PropTypes.string,
 		// jerseyNumber: PropTypes.number,
 		// age: PropTypes.number,
 		// position: PropTypes.string,
 		// id: PropTypes.number
+	// }
+	handleScorebookClick = (contextVar, game) =>{
+		contextVar.action.handleGameInFocus(game);
+		contextVar.action.setViewType("gameSheet");
+		return true
 	}
 
 	render(){
 	  	const {
 			gameInFocus,
-			handleGIF
+			// handleGIF
 		} = this.props;
 
 		if (!gameInFocus.id) {
@@ -32,7 +38,10 @@ class GameCard extends PureComponent {
 	    			<div key>
 	    				<header className="display-flex">
 		    				<h2 className="" >{ gameInFocus.name }<br/> { gameInFocus.teams[0].name } vs <span className="">{ gameInFocus.teams[1].name }</span></h2>
-		    				<button onClick={() => { context.action.handleGameInFocus(gameInFocus) }}>View Game Stats</button>
+		    				<div className="view-toggle">
+		    					<button className={ context.viewType === "game" && context.gameInFocus.id === gameInFocus.id ? "active" : "" } onClick={() => { context.action.handleGameInFocus(gameInFocus) }}>Overview</button>
+		    					<button className={ context.viewType === "gameSheet" && context.gameInFocus.id === gameInFocus.id ? "active" : "" } onClick={() => this.handleScorebookClick(context, gameInFocus)}>Scorebook</button>
+		    				</div>
 		    			</header>
 		    			<div className="score-card">
 			    			<div className="row display-flex header">

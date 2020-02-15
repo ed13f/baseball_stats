@@ -4,7 +4,7 @@
 	background-color: #e6e6e6;
 	position:relative;
 	&.active{
-		background-color: transparent;
+		background-color: #ffffff;
 		// .strikes, .balls{
 		// 	display:block !important;
 
@@ -14,7 +14,7 @@
 	.field-position{
 		position:absolute;
 		right:5%;
-		font-size:12px;
+		font-size:11px;
 	}
 	.count{
 		text-align:left;
@@ -58,8 +58,8 @@
 		}
 	}
 	.bases{
-		height: 25px;
-	    width: 25px;
+		height: 22px;
+	    width: 22px;
 	    text-align: center;
 	    margin: 0 auto;
 	    padding: 15px;
