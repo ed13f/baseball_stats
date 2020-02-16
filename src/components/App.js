@@ -6,11 +6,7 @@ import {
   BrowserRouter,
   Route
 } from 'react-router-dom';
-
-
-// import Header from './layout/Header';
 import CoachProfile from './Coach/CoachProfile';
-// import PlayerProfile from './Player/PlayerProfile';
 import GameProfile from './Game/GameProfile';
 
 class App extends Component {
@@ -79,23 +75,6 @@ class App extends Component {
     return {team: team, teamIndex:teamIndex, player: player, playerIndex: playerIndex, atBat: atBat, atBatIndex: atBatIndex  }
   }
 
-  // selectChange = (playerId, teamId, updateValue, attributeType) => {
-  //   let results = this.findGameAtBat(playerId, teamId)
-  //   this.setState(prevState => ({
-  //             atBatInFocus: {
-  //               ...prevState.atBatInFocus,
-  //               baseValue: prevState.atBatInFocus.baseValue = updateValue
-  //             },
-  //             gameInFocus: {
-  //               ...prevState.gameInFocus,
-  //               ...prevState.gameInFocus.teams[results.teamIndex].players[results.playerIndex].atBats[results.atBatIndex].baseValue = updateValue 
-  //             } 
-  //         }))
-  //   return "hiiii"
-  // }
-
-
-   
    makeGameInFocus = (atBat) => {
      this.setState(prevState => ({
       atBatInFocus: atBat

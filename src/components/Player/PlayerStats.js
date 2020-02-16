@@ -1,35 +1,21 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
-// import { Consumer } from '../Context';
-// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
+import PropTypes from 'prop-types';
 import { playerAtBats, playerHits, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
-
 
 
 class PlayerStats extends PureComponent {
 
-	// static propTypes = {
-		// firstName: PropTypes.string,
-		// lastName: PropTypes.string,
-		// jerseyNumber: PropTypes.number,
-		// age: PropTypes.number,
-		// position: PropTypes.string,
-		// id: PropTypes.number
-	// }
-
+	static propTypes = { player: PropTypes.object.isRequired }
 
 	render(){
-	  	const {
-	  		player,
-		} = this.props;
 
-		if (!player.id) {
-            return <div />
-        }
+	  	const { player } = this.props;
+
+		if (!player.id) { return <div /> }
 
 		return (
 		    <article className="player-stats">
-    			<div key>
+    			<div>
     				<header>
 	    				<h2 className="player-name" ><span className="jersey-number">#{ player.jerseyNumber }</span> { player.firstName + ' ' + player.lastName }</h2>
 	    				<div className="player-details"><span className="position">{ player.position }</span> | <span className="position">Age: { player.age }</span></div>
@@ -82,6 +68,5 @@ class PlayerStats extends PureComponent {
 	}
 }
 
-  
 
 export default PlayerStats

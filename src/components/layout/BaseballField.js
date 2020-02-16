@@ -1,21 +1,17 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { Consumer } from '../Context';
 import BallMarker from './BallMarker';
-// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
 import { playerAtBats, playersAtBatsMulti } from '../../lib/player-stats';
-
 import { gameAtBats } from '../../lib/game-stats';
-
 
 
 class BaseballField extends PureComponent {
 
-	// static propTypes = {
-		// id: PropTypes.number.isRequired,
-		// index: PropTypes.number,
-	// }
-
+	static propTypes = {
+		playerInFocus: PropTypes.object,
+		teamInFocus: PropTypes.object,
+	}
 
 	findHitByViewType = (atBat, context) => {
 		let hitBoolValue = false;
@@ -30,27 +26,20 @@ class BaseballField extends PureComponent {
 	render(){
 
 		const {
-			// teamInFocus,
-			// id,
-			// index,
 			teamPlayers = this.props.teamInFocus.players,
 			player = this.props.playerInFocus,
-
-			// teamHits = this.props.teamInFocus.players,
-			// TeamHits = playerHitsMulti(this.props.TeamPlayers)
-			// playersHits = playerHitsMulti(players)
+			teamInFocus
 		} = this.props;
 
-		if (!this.props.teamInFocus.id) {
-            return <div />
-        }
+		if (!teamInFocus.id) { return <div /> }
+
 		return (
 			<Consumer>
 	    		{ context => (
 					<div className="stadium">
-					{ context.viewType === "team" ? this.filterHitByViewType(playersAtBatsMulti(teamPlayers), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} />) : null }
-					{ context.viewType === "player" ? this.filterHitByViewType(playerAtBats(player), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} hitViewType={context.hitViewType} />) : null }
-					{ context.viewType === "game" ? this.filterHitByViewType(gameAtBats(context.gameInFocus), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} hitViewType={context.hitViewType} />) : null }
+						{ context.viewType === "team" ? this.filterHitByViewType(playersAtBatsMulti(teamPlayers), context).map( (bat, index) => <BallMarker key={bat.id} atBat={bat} />) : null }
+						{ context.viewType === "player" ? this.filterHitByViewType(playerAtBats(player), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} hitViewType={context.hitViewType} />) : null }
+						{ context.viewType === "game" ? this.filterHitByViewType(gameAtBats(context.gameInFocus), context).map( (bat, index) => <BallMarker key={index} value={bat.id} atBat={bat} hitViewType={context.hitViewType} />) : null }
 				        <div className="field mowed-grass"></div>
 				        <div className="in-field"></div>
 				        <div className="in-field-grass mowed-grass"></div>
@@ -91,5 +80,6 @@ class BaseballField extends PureComponent {
 		);
 	}
 }
+
 
 export default BaseballField

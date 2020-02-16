@@ -1,48 +1,28 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
 import Counter from './Counter';
 import SelectField from './SelectField';
-// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
 
 
 class AtBatCard extends PureComponent {
 
-	// static propTypes = {
-		// firstName: PropTypes.string,
-		// lastName: PropTypes.string,
-		// jerseyNumber: PropTypes.number,
-		// age: PropTypes.number,
-		// position: PropTypes.string,
-		// id: PropTypes.number
-	// }
-
 	findPlayer = () =>{
 		let players = this.props.players
 		let atBatInFocus = this.props.atBatInFocus
-		// debugger
 		let player = players.find(player => player.id === atBatInFocus.playerId)
 		return player
 	}
 
-
 	render(){
-		// {console.log("hhh")}
-	  	const {
-			// player,
-			atBatInFocus,
-			players,
-			gameInFocus
-		} = this.props;
 
-		if (!this.props.atBatInFocus.id) {
-            return <div />
-        }
-		return (
+	  	const { atBatInFocus, players, gameInFocus } = this.props;
+
+		if (atBatInFocus.id) { return <div /> }
 			
+		return (
 			<article className="at-bat-card">
 				<header>
-				<h2 className="player-name">{this.findPlayer().firstName} {this.findPlayer().lastName}</h2>
-		    	<div className="player-name">#{this.findPlayer().jerseyNumber} | {this.findPlayer().position}</div>
+					<h2 className="player-name">{this.findPlayer().firstName} {this.findPlayer().lastName}</h2>
+		    		<div className="player-name">#{this.findPlayer().jerseyNumber} | {this.findPlayer().position}</div>
 				</header>
 		    	<div className="row">
 			    	<div className="single column">
@@ -68,10 +48,7 @@ class AtBatCard extends PureComponent {
 				    			players={players}
 				    			attributeType={"strikes"}
 				    		/>
-			    			
-
 			    		</div>
-		    			
 		    		</div>	
 			    </div>	
 			    <div className="row">
@@ -117,9 +94,7 @@ class AtBatCard extends PureComponent {
 			</article>
 		);
 	}
-
 }
 
-  
 
 export default AtBatCard

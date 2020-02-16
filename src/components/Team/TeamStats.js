@@ -1,36 +1,17 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
-// import ViewTypeSwitch from '../layout/ViewTypeSwitch';
-// import {totalWins, totalLosses, teamBattingAverage, teamOnBasePercentage, teamPlateAppearances, teamRunsBattedIn, teamHits, totalHitsByTypeMulti, teamHitsByType } from '../../lib/team-stats';
+import PropTypes from 'prop-types';
 import {totalWins, totalLosses, teamBattingAverage, teamOnBasePercentage, teamPlateAppearances, teamRunsBattedIn, teamHits, teamHitsByType } from '../../lib/team-stats';
+
 
 class TeamStats extends PureComponent {
 
-	// static propTypes = {
-	// 	id: PropTypes.number.isRequired,
-	// 	index: PropTypes.number,
-	// }
-
-	// wins = ( ) => {
-		// let games = this.props.teamInFocus.games;
-		// let innings = gamesInningsMulti(games);
-		// let atBats = inningsAtBatsMulti(innings);
-		// debugger
-	// 	return atBats.length
-	// }
+	static propTypes = { teamInFocus: PropTypes.object.isRequired }
 
 	render(){
 
-		const {
-			teamInFocus,
-			// id,
-			// index,
-			// teamGames = this.props.teamInFocus.games,
-		} = this.props;
+		const { teamInFocus } = this.props;
 
-		if (!this.props.teamInFocus.id) {
-            return <div />
-        }
+		if (!teamInFocus.id) { return <div /> }
 
 		return (
 			<div className="team-stats">
@@ -53,7 +34,6 @@ class TeamStats extends PureComponent {
 					<div className="flex-1">
 						OBP: {teamOnBasePercentage(teamInFocus)}
 					</div>
-					
 				</div>
 				<div className="row underline display-flex">
 					<div className="flex-1">
@@ -83,11 +63,10 @@ class TeamStats extends PureComponent {
 						E: {teamHitsByType(teamInFocus, "E")}
 					</div>
 				</div>
-
 			</div>
-
 		);
 	}
 }
+
 
 export default TeamStats

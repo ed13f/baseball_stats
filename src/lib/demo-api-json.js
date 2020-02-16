@@ -4,12 +4,12 @@ export const jsonApiData = () => {
 	return{
   "coach": {
     "id": 1,
-    "firstName": "Reggie",
-    "lastName": "Hirthe",
-    "phone": "(571) 865-0279 x12075",
-    "email": "madalyn.macgyver@gmail.com",
-    "createdAt": "2020-02-15T16:57:08.000Z",
-    "updatedAt": "2020-02-15T16:57:08.000Z"
+    "firstName": "Sonya",
+    "lastName": "Watsica",
+    "phone": "764-540-8992 x74606",
+    "email": "lionel@yahoo.com",
+    "createdAt": "2020-02-16T15:58:50.000Z",
+    "updatedAt": "2020-02-16T15:58:50.000Z"
   },
   "teams": [
     {
@@ -18,7 +18,7 @@ export const jsonApiData = () => {
       "games": [
         {
           "id": 1,
-          "name": "Subway Series",
+          "name": "Game 1",
           "teams": [
             {
               "id": 1,
@@ -26,11 +26,11 @@ export const jsonApiData = () => {
               "players": [
                 {
                   "id": 1,
-                  "firstName": "Shawn",
-                  "lastName": "Ondricka",
-                  "jerseyNumber": 72,
+                  "firstName": "Allen",
+                  "lastName": "Schmitt",
+                  "jerseyNumber": 80,
                   "position": "1B",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 1,
@@ -44,8 +44,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 10,
@@ -59,8 +59,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 20,
@@ -74,8 +74,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 29,
@@ -89,8 +89,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 38,
@@ -104,8 +104,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 49,
@@ -119,8 +119,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 58,
@@ -134,8 +134,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 67,
@@ -149,8 +149,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 76,
@@ -164,8 +164,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 85,
@@ -179,18 +179,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 2,
-                  "firstName": "Katelyn",
-                  "lastName": "McCullough",
-                  "jerseyNumber": 8,
+                  "firstName": "Dorris",
+                  "lastName": "Shields",
+                  "jerseyNumber": 1,
                   "position": "2B",
                   "age": 15,
                   "atBats": [
@@ -206,8 +206,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 11,
@@ -221,8 +221,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 21,
@@ -236,8 +236,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 30,
@@ -251,8 +251,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 39,
@@ -266,8 +266,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 50,
@@ -281,8 +281,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 59,
@@ -296,8 +296,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 68,
@@ -311,8 +311,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 77,
@@ -326,18 +326,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 3,
-                  "firstName": "Aurelie",
-                  "lastName": "Greenholt",
-                  "jerseyNumber": 8,
+                  "firstName": "Mya",
+                  "lastName": "Friesen",
+                  "jerseyNumber": 7,
                   "position": "3B",
                   "age": 15,
                   "atBats": [
@@ -353,8 +353,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 12,
@@ -368,8 +368,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 22,
@@ -383,8 +383,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 31,
@@ -398,8 +398,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 51,
@@ -413,8 +413,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 60,
@@ -428,8 +428,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 69,
@@ -443,8 +443,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 78,
@@ -458,17 +458,17 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 4,
-                  "firstName": "Cloyd",
-                  "lastName": "Emmerich",
+                  "firstName": "Jillian",
+                  "lastName": "Becker",
                   "jerseyNumber": 1,
                   "position": "SS",
                   "age": 16,
@@ -485,8 +485,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 13,
@@ -500,8 +500,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 23,
@@ -515,8 +515,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 32,
@@ -530,8 +530,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 52,
@@ -545,8 +545,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 61,
@@ -560,8 +560,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 70,
@@ -575,8 +575,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 79,
@@ -590,20 +590,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 5,
-                  "firstName": "Shyanne",
-                  "lastName": "Welch",
-                  "jerseyNumber": 1,
+                  "firstName": "Flavie",
+                  "lastName": "Schmeler",
+                  "jerseyNumber": 2,
                   "position": "LF",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 5,
@@ -617,8 +617,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 14,
@@ -632,8 +632,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 15,
@@ -647,8 +647,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 24,
@@ -662,8 +662,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 33,
@@ -677,8 +677,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 53,
@@ -692,8 +692,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 62,
@@ -707,8 +707,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 71,
@@ -722,8 +722,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 80,
@@ -737,20 +737,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 6,
-                  "firstName": "Jettie",
-                  "lastName": "Douglas",
-                  "jerseyNumber": 6,
+                  "firstName": "Joshua",
+                  "lastName": "Ullrich",
+                  "jerseyNumber": 2,
                   "position": "RF",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 6,
@@ -764,8 +764,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 16,
@@ -779,8 +779,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 25,
@@ -794,8 +794,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 34,
@@ -809,8 +809,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 54,
@@ -824,8 +824,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 63,
@@ -839,8 +839,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 72,
@@ -854,8 +854,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 81,
@@ -869,18 +869,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 7,
-                  "firstName": "Jess",
-                  "lastName": "Von",
-                  "jerseyNumber": 1,
+                  "firstName": "Tyrell",
+                  "lastName": "Wiegand",
+                  "jerseyNumber": 3,
                   "position": "CF",
                   "age": 16,
                   "atBats": [
@@ -896,8 +896,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 17,
@@ -911,8 +911,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 26,
@@ -926,8 +926,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 35,
@@ -941,8 +941,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 55,
@@ -956,8 +956,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 64,
@@ -971,8 +971,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 73,
@@ -986,8 +986,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 82,
@@ -1001,18 +1001,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 8,
-                  "firstName": "Fabiola",
-                  "lastName": "Rodriguez",
-                  "jerseyNumber": 3,
+                  "firstName": "Diamond",
+                  "lastName": "Friesen",
+                  "jerseyNumber": 6,
                   "position": "C",
                   "age": 16,
                   "atBats": [
@@ -1028,8 +1028,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 18,
@@ -1043,8 +1043,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 27,
@@ -1058,8 +1058,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 36,
@@ -1073,8 +1073,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 56,
@@ -1088,8 +1088,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 65,
@@ -1103,8 +1103,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 74,
@@ -1118,8 +1118,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 83,
@@ -1133,20 +1133,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 9,
-                  "firstName": "Arthur",
-                  "lastName": "Schiller",
-                  "jerseyNumber": 8,
+                  "firstName": "Jean",
+                  "lastName": "Tromp",
+                  "jerseyNumber": 6,
                   "position": "P",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 9,
@@ -1160,8 +1160,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 19,
@@ -1175,8 +1175,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 28,
@@ -1190,8 +1190,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 37,
@@ -1205,8 +1205,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 57,
@@ -1220,8 +1220,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 66,
@@ -1235,8 +1235,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 75,
@@ -1250,8 +1250,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 84,
@@ -1265,16 +1265,16 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 2,
@@ -1282,11 +1282,11 @@ export const jsonApiData = () => {
               "players": [
                 {
                   "id": 10,
-                  "firstName": "Tanner",
-                  "lastName": "Fay",
-                  "jerseyNumber": 7,
+                  "firstName": "Raoul",
+                  "lastName": "VonRueden",
+                  "jerseyNumber": 5,
                   "position": "1B",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 40,
@@ -1300,8 +1300,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 86,
@@ -1315,20 +1315,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 11,
-                  "firstName": "Thurman",
-                  "lastName": "Jast",
-                  "jerseyNumber": 9,
+                  "firstName": "Lupe",
+                  "lastName": "Kirlin",
+                  "jerseyNumber": 4,
                   "position": "2B",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 41,
@@ -1342,8 +1342,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 87,
@@ -1357,20 +1357,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 12,
-                  "firstName": "Ronny",
-                  "lastName": "Schmitt",
-                  "jerseyNumber": 7,
+                  "firstName": "Demario",
+                  "lastName": "Bartell",
+                  "jerseyNumber": 1,
                   "position": "3B",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 42,
@@ -1384,8 +1384,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 89,
@@ -1399,20 +1399,95 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 90,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 91,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 92,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 93,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 94,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 13,
-                  "firstName": "Syble",
-                  "lastName": "Funk",
-                  "jerseyNumber": 5,
+                  "firstName": "Mireya",
+                  "lastName": "Goyette",
+                  "jerseyNumber": 1,
                   "position": "SS",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 43,
@@ -1426,20 +1501,20 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 14,
-                  "firstName": "Zora",
-                  "lastName": "O'Kon",
-                  "jerseyNumber": 7,
+                  "firstName": "Hassan",
+                  "lastName": "Bartoletti",
+                  "jerseyNumber": 4,
                   "position": "LF",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 44,
@@ -1453,8 +1528,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 88,
@@ -1468,18 +1543,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 15,
-                  "firstName": "Flossie",
-                  "lastName": "Schultz",
-                  "jerseyNumber": 5,
+                  "firstName": "Adaline",
+                  "lastName": "Tromp",
+                  "jerseyNumber": 7,
                   "position": "RF",
                   "age": 16,
                   "atBats": [
@@ -1495,18 +1570,18 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 16,
-                  "firstName": "Darren",
-                  "lastName": "Christiansen",
-                  "jerseyNumber": 4,
+                  "firstName": "Kylie",
+                  "lastName": "Stark",
+                  "jerseyNumber": 9,
                   "position": "CF",
                   "age": 16,
                   "atBats": [
@@ -1522,17 +1597,17 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 17,
-                  "firstName": "Ryleigh",
-                  "lastName": "Strosin",
+                  "firstName": "Cleta",
+                  "lastName": "Fadel",
                   "jerseyNumber": 8,
                   "position": "C",
                   "age": 15,
@@ -1549,20 +1624,20 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 18,
-                  "firstName": "Della",
-                  "lastName": "Anderson",
-                  "jerseyNumber": 3,
+                  "firstName": "Destini",
+                  "lastName": "Koss",
+                  "jerseyNumber": 2,
                   "position": "P",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 48,
@@ -1576,16 +1651,16 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
           "innings": [
@@ -1603,8 +1678,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 2,
@@ -1617,8 +1692,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 3,
@@ -1631,8 +1706,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 4,
@@ -1645,8 +1720,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 40,
@@ -1659,8 +1734,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 41,
@@ -1673,8 +1748,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 42,
@@ -1687,20 +1762,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 1,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 2,
@@ -1716,8 +1791,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 6,
@@ -1730,8 +1805,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 7,
@@ -1744,8 +1819,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 8,
@@ -1758,8 +1833,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 9,
@@ -1772,8 +1847,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 43,
@@ -1786,8 +1861,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 44,
@@ -1800,8 +1875,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 45,
@@ -1814,8 +1889,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 46,
@@ -1828,8 +1903,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 47,
@@ -1842,8 +1917,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 48,
@@ -1856,20 +1931,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 2,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 3,
@@ -1885,8 +1960,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 11,
@@ -1899,8 +1974,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 12,
@@ -1913,8 +1988,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 13,
@@ -1927,8 +2002,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 14,
@@ -1941,8 +2016,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 15,
@@ -1955,8 +2030,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 16,
@@ -1969,20 +2044,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 3,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 4,
@@ -1998,8 +2073,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 18,
@@ -2012,8 +2087,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 19,
@@ -2026,8 +2101,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 20,
@@ -2040,20 +2115,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 4,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 5,
@@ -2069,8 +2144,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 22,
@@ -2083,8 +2158,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 23,
@@ -2097,20 +2172,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 5,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 6,
@@ -2126,8 +2201,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 25,
@@ -2140,8 +2215,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 26,
@@ -2154,8 +2229,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 27,
@@ -2168,20 +2243,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 6,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 7,
@@ -2197,8 +2272,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 29,
@@ -2211,8 +2286,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 30,
@@ -2225,20 +2300,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 7,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 8,
@@ -2254,8 +2329,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 32,
@@ -2268,8 +2343,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 33,
@@ -2282,8 +2357,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 34,
@@ -2296,8 +2371,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 35,
@@ -2310,20 +2385,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 8,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 9,
@@ -2339,8 +2414,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 37,
@@ -2353,8 +2428,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 38,
@@ -2367,8 +2442,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 39,
@@ -2381,28 +2456,28 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 9,
               "gameId": {
                 "id": 1,
-                "name": "Subway Series",
+                "name": "Game 1",
                 "location": "Yankee Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:50.000Z",
+                "updated_at": "2020-02-16T15:58:50.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 2,
-          "name": "Super Bowl",
+          "name": "Game 2",
           "teams": [
             {
               "id": 1,
@@ -2410,11 +2485,11 @@ export const jsonApiData = () => {
               "players": [
                 {
                   "id": 1,
-                  "firstName": "Shawn",
-                  "lastName": "Ondricka",
-                  "jerseyNumber": 72,
+                  "firstName": "Allen",
+                  "lastName": "Schmitt",
+                  "jerseyNumber": 80,
                   "position": "1B",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 1,
@@ -2428,8 +2503,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 10,
@@ -2443,8 +2518,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 20,
@@ -2458,8 +2533,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 29,
@@ -2473,8 +2548,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 38,
@@ -2488,8 +2563,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 49,
@@ -2503,8 +2578,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 58,
@@ -2518,8 +2593,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 67,
@@ -2533,8 +2608,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 76,
@@ -2548,8 +2623,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 85,
@@ -2563,18 +2638,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 2,
-                  "firstName": "Katelyn",
-                  "lastName": "McCullough",
-                  "jerseyNumber": 8,
+                  "firstName": "Dorris",
+                  "lastName": "Shields",
+                  "jerseyNumber": 1,
                   "position": "2B",
                   "age": 15,
                   "atBats": [
@@ -2590,8 +2665,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 11,
@@ -2605,8 +2680,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 21,
@@ -2620,8 +2695,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 30,
@@ -2635,8 +2710,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 39,
@@ -2650,8 +2725,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 50,
@@ -2665,8 +2740,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 59,
@@ -2680,8 +2755,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 68,
@@ -2695,8 +2770,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 77,
@@ -2710,18 +2785,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 3,
-                  "firstName": "Aurelie",
-                  "lastName": "Greenholt",
-                  "jerseyNumber": 8,
+                  "firstName": "Mya",
+                  "lastName": "Friesen",
+                  "jerseyNumber": 7,
                   "position": "3B",
                   "age": 15,
                   "atBats": [
@@ -2737,8 +2812,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 12,
@@ -2752,8 +2827,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 22,
@@ -2767,8 +2842,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 31,
@@ -2782,8 +2857,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 51,
@@ -2797,8 +2872,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 60,
@@ -2812,8 +2887,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 69,
@@ -2827,8 +2902,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 78,
@@ -2842,17 +2917,17 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 4,
-                  "firstName": "Cloyd",
-                  "lastName": "Emmerich",
+                  "firstName": "Jillian",
+                  "lastName": "Becker",
                   "jerseyNumber": 1,
                   "position": "SS",
                   "age": 16,
@@ -2869,8 +2944,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 13,
@@ -2884,8 +2959,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 23,
@@ -2899,8 +2974,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 32,
@@ -2914,8 +2989,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 52,
@@ -2929,8 +3004,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 61,
@@ -2944,8 +3019,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 70,
@@ -2959,8 +3034,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 79,
@@ -2974,20 +3049,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 5,
-                  "firstName": "Shyanne",
-                  "lastName": "Welch",
-                  "jerseyNumber": 1,
+                  "firstName": "Flavie",
+                  "lastName": "Schmeler",
+                  "jerseyNumber": 2,
                   "position": "LF",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 5,
@@ -3001,8 +3076,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 14,
@@ -3016,8 +3091,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 15,
@@ -3031,8 +3106,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 24,
@@ -3046,8 +3121,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 33,
@@ -3061,8 +3136,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 53,
@@ -3076,8 +3151,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 62,
@@ -3091,8 +3166,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 71,
@@ -3106,8 +3181,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 80,
@@ -3121,20 +3196,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 6,
-                  "firstName": "Jettie",
-                  "lastName": "Douglas",
-                  "jerseyNumber": 6,
+                  "firstName": "Joshua",
+                  "lastName": "Ullrich",
+                  "jerseyNumber": 2,
                   "position": "RF",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 6,
@@ -3148,8 +3223,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 16,
@@ -3163,8 +3238,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 25,
@@ -3178,8 +3253,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 34,
@@ -3193,8 +3268,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 54,
@@ -3208,8 +3283,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 63,
@@ -3223,8 +3298,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 72,
@@ -3238,8 +3313,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 81,
@@ -3253,18 +3328,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 7,
-                  "firstName": "Jess",
-                  "lastName": "Von",
-                  "jerseyNumber": 1,
+                  "firstName": "Tyrell",
+                  "lastName": "Wiegand",
+                  "jerseyNumber": 3,
                   "position": "CF",
                   "age": 16,
                   "atBats": [
@@ -3280,8 +3355,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 17,
@@ -3295,8 +3370,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 26,
@@ -3310,8 +3385,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 35,
@@ -3325,8 +3400,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 55,
@@ -3340,8 +3415,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 64,
@@ -3355,8 +3430,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 73,
@@ -3370,8 +3445,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 82,
@@ -3385,18 +3460,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 8,
-                  "firstName": "Fabiola",
-                  "lastName": "Rodriguez",
-                  "jerseyNumber": 3,
+                  "firstName": "Diamond",
+                  "lastName": "Friesen",
+                  "jerseyNumber": 6,
                   "position": "C",
                   "age": 16,
                   "atBats": [
@@ -3412,8 +3487,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 18,
@@ -3427,8 +3502,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 27,
@@ -3442,8 +3517,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 36,
@@ -3457,8 +3532,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 56,
@@ -3472,8 +3547,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 65,
@@ -3487,8 +3562,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 74,
@@ -3502,8 +3577,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 83,
@@ -3517,20 +3592,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 9,
-                  "firstName": "Arthur",
-                  "lastName": "Schiller",
-                  "jerseyNumber": 8,
+                  "firstName": "Jean",
+                  "lastName": "Tromp",
+                  "jerseyNumber": 6,
                   "position": "P",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 9,
@@ -3544,8 +3619,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 19,
@@ -3559,8 +3634,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 28,
@@ -3574,8 +3649,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 37,
@@ -3589,8 +3664,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 57,
@@ -3604,8 +3679,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 66,
@@ -3619,8 +3694,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 75,
@@ -3634,8 +3709,8 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 3,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 84,
@@ -3649,16 +3724,16 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 0,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 2,
@@ -3666,11 +3741,11 @@ export const jsonApiData = () => {
               "players": [
                 {
                   "id": 10,
-                  "firstName": "Tanner",
-                  "lastName": "Fay",
-                  "jerseyNumber": 7,
+                  "firstName": "Raoul",
+                  "lastName": "VonRueden",
+                  "jerseyNumber": 5,
                   "position": "1B",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 40,
@@ -3684,8 +3759,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 86,
@@ -3699,20 +3774,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 11,
-                  "firstName": "Thurman",
-                  "lastName": "Jast",
-                  "jerseyNumber": 9,
+                  "firstName": "Lupe",
+                  "lastName": "Kirlin",
+                  "jerseyNumber": 4,
                   "position": "2B",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 41,
@@ -3726,8 +3801,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 1,
                       "strikes": 1,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 87,
@@ -3741,20 +3816,20 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 12,
-                  "firstName": "Ronny",
-                  "lastName": "Schmitt",
-                  "jerseyNumber": 7,
+                  "firstName": "Demario",
+                  "lastName": "Bartell",
+                  "jerseyNumber": 1,
                   "position": "3B",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 42,
@@ -3768,8 +3843,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 89,
@@ -3783,20 +3858,95 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 90,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 91,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 92,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 93,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
+                    },
+                    {
+                      "id": 94,
+                      "playerId": 12,
+                      "runsBattedIn": 0,
+                      "basePosition": 1,
+                      "fieldPosition": "1B",
+                      "baseValue": "1B",
+                      "isHit": true,
+                      "inningNumber": 7,
+                      "gameId": 2,
+                      "balls": 1,
+                      "strikes": 3,
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 13,
-                  "firstName": "Syble",
-                  "lastName": "Funk",
-                  "jerseyNumber": 5,
+                  "firstName": "Mireya",
+                  "lastName": "Goyette",
+                  "jerseyNumber": 1,
                   "position": "SS",
-                  "age": 15,
+                  "age": 16,
                   "atBats": [
                     {
                       "id": 43,
@@ -3810,20 +3960,20 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 14,
-                  "firstName": "Zora",
-                  "lastName": "O'Kon",
-                  "jerseyNumber": 7,
+                  "firstName": "Hassan",
+                  "lastName": "Bartoletti",
+                  "jerseyNumber": 4,
                   "position": "LF",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 44,
@@ -3837,8 +3987,8 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     },
                     {
                       "id": 88,
@@ -3852,18 +4002,18 @@ export const jsonApiData = () => {
                       "gameId": 2,
                       "balls": 1,
                       "strikes": 3,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 15,
-                  "firstName": "Flossie",
-                  "lastName": "Schultz",
-                  "jerseyNumber": 5,
+                  "firstName": "Adaline",
+                  "lastName": "Tromp",
+                  "jerseyNumber": 7,
                   "position": "RF",
                   "age": 16,
                   "atBats": [
@@ -3879,18 +4029,18 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 0,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 16,
-                  "firstName": "Darren",
-                  "lastName": "Christiansen",
-                  "jerseyNumber": 4,
+                  "firstName": "Kylie",
+                  "lastName": "Stark",
+                  "jerseyNumber": 9,
                   "position": "CF",
                   "age": 16,
                   "atBats": [
@@ -3906,17 +4056,17 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 2,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 17,
-                  "firstName": "Ryleigh",
-                  "lastName": "Strosin",
+                  "firstName": "Cleta",
+                  "lastName": "Fadel",
                   "jerseyNumber": 8,
                   "position": "C",
                   "age": 15,
@@ -3933,20 +4083,20 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 },
                 {
                   "id": 18,
-                  "firstName": "Della",
-                  "lastName": "Anderson",
-                  "jerseyNumber": 3,
+                  "firstName": "Destini",
+                  "lastName": "Koss",
+                  "jerseyNumber": 2,
                   "position": "P",
-                  "age": 16,
+                  "age": 15,
                   "atBats": [
                     {
                       "id": 48,
@@ -3960,16 +4110,16 @@ export const jsonApiData = () => {
                       "gameId": 1,
                       "balls": 0,
                       "strikes": 2,
-                      "createdAt": "2020-02-15T16:57:09.000Z",
-                      "updatedAt": "2020-02-15T16:57:09.000Z"
+                      "createdAt": "2020-02-16T15:58:51.000Z",
+                      "updatedAt": "2020-02-16T15:58:51.000Z"
                     }
                   ],
-                  "createdAt": "2020-02-15T16:57:08.000Z",
-                  "updatedAt": "2020-02-15T16:57:08.000Z"
+                  "createdAt": "2020-02-16T15:58:50.000Z",
+                  "updatedAt": "2020-02-16T15:58:50.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
           "innings": [
@@ -3987,8 +4137,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 50,
@@ -4001,8 +4151,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 51,
@@ -4015,8 +4165,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 52,
@@ -4029,8 +4179,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 53,
@@ -4043,8 +4193,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 86,
@@ -4057,8 +4207,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 87,
@@ -4071,20 +4221,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 1,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 11,
@@ -4100,8 +4250,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 55,
@@ -4114,8 +4264,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 56,
@@ -4128,8 +4278,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 57,
@@ -4142,8 +4292,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 58,
@@ -4156,8 +4306,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 59,
@@ -4170,20 +4320,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 2,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 12,
@@ -4199,8 +4349,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 61,
@@ -4213,8 +4363,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 62,
@@ -4227,20 +4377,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 3,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 13,
@@ -4256,8 +4406,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 64,
@@ -4270,8 +4420,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 65,
@@ -4284,8 +4434,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 88,
@@ -4298,20 +4448,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 4,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 14,
@@ -4327,8 +4477,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 67,
@@ -4341,8 +4491,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 68,
@@ -4355,8 +4505,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 69,
@@ -4369,8 +4519,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 70,
@@ -4383,20 +4533,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 5,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 15,
@@ -4412,8 +4562,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 72,
@@ -4426,8 +4576,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 73,
@@ -4440,8 +4590,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 74,
@@ -4454,8 +4604,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 75,
@@ -4468,20 +4618,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 6,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 16,
@@ -4497,8 +4647,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 77,
@@ -4511,8 +4661,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 78,
@@ -4525,8 +4675,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 79,
@@ -4539,8 +4689,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 89,
@@ -4553,20 +4703,90 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 90,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 91,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 92,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 93,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 94,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 7,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 17,
@@ -4582,8 +4802,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 81,
@@ -4596,8 +4816,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 82,
@@ -4610,20 +4830,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 8,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 18,
@@ -4639,8 +4859,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 84,
@@ -4653,8 +4873,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 85,
@@ -4667,34 +4887,34 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
               "inningNumber": 9,
               "gameId": {
                 "id": 2,
-                "name": "Super Bowl",
+                "name": "Game 2",
                 "location": "Fenway Stadium",
-                "created_at": "2020-02-15T16:57:08.000Z",
-                "updated_at": "2020-02-15T16:57:08.000Z"
+                "created_at": "2020-02-16T15:58:51.000Z",
+                "updated_at": "2020-02-16T15:58:51.000Z"
               },
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
       "players": [
         {
           "id": 1,
-          "firstName": "Shawn",
-          "lastName": "Ondricka",
-          "jerseyNumber": 72,
+          "firstName": "Allen",
+          "lastName": "Schmitt",
+          "jerseyNumber": 80,
           "position": "1B",
-          "age": 16,
+          "age": 15,
           "atBats": [
             {
               "id": 1,
@@ -4708,8 +4928,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 10,
@@ -4723,8 +4943,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 20,
@@ -4738,8 +4958,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 29,
@@ -4753,8 +4973,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 38,
@@ -4768,8 +4988,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 49,
@@ -4783,8 +5003,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 58,
@@ -4798,8 +5018,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 67,
@@ -4813,8 +5033,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 76,
@@ -4828,8 +5048,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 85,
@@ -4843,18 +5063,18 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 2,
-          "firstName": "Katelyn",
-          "lastName": "McCullough",
-          "jerseyNumber": 8,
+          "firstName": "Dorris",
+          "lastName": "Shields",
+          "jerseyNumber": 1,
           "position": "2B",
           "age": 15,
           "atBats": [
@@ -4870,8 +5090,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 11,
@@ -4885,8 +5105,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 21,
@@ -4900,8 +5120,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 30,
@@ -4915,8 +5135,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 39,
@@ -4930,8 +5150,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 50,
@@ -4945,8 +5165,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 59,
@@ -4960,8 +5180,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 68,
@@ -4975,8 +5195,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 77,
@@ -4990,18 +5210,18 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 3,
-          "firstName": "Aurelie",
-          "lastName": "Greenholt",
-          "jerseyNumber": 8,
+          "firstName": "Mya",
+          "lastName": "Friesen",
+          "jerseyNumber": 7,
           "position": "3B",
           "age": 15,
           "atBats": [
@@ -5017,8 +5237,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 12,
@@ -5032,8 +5252,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 22,
@@ -5047,8 +5267,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 31,
@@ -5062,8 +5282,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 51,
@@ -5077,8 +5297,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 60,
@@ -5092,8 +5312,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 69,
@@ -5107,8 +5327,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 78,
@@ -5122,17 +5342,17 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 4,
-          "firstName": "Cloyd",
-          "lastName": "Emmerich",
+          "firstName": "Jillian",
+          "lastName": "Becker",
           "jerseyNumber": 1,
           "position": "SS",
           "age": 16,
@@ -5149,8 +5369,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 13,
@@ -5164,8 +5384,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 23,
@@ -5179,8 +5399,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 32,
@@ -5194,8 +5414,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 52,
@@ -5209,8 +5429,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 61,
@@ -5224,8 +5444,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 70,
@@ -5239,8 +5459,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 79,
@@ -5254,20 +5474,20 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 5,
-          "firstName": "Shyanne",
-          "lastName": "Welch",
-          "jerseyNumber": 1,
+          "firstName": "Flavie",
+          "lastName": "Schmeler",
+          "jerseyNumber": 2,
           "position": "LF",
-          "age": 16,
+          "age": 15,
           "atBats": [
             {
               "id": 5,
@@ -5281,8 +5501,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 14,
@@ -5296,8 +5516,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 15,
@@ -5311,8 +5531,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 24,
@@ -5326,8 +5546,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 33,
@@ -5341,8 +5561,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 53,
@@ -5356,8 +5576,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 62,
@@ -5371,8 +5591,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 71,
@@ -5386,8 +5606,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 80,
@@ -5401,20 +5621,20 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 6,
-          "firstName": "Jettie",
-          "lastName": "Douglas",
-          "jerseyNumber": 6,
+          "firstName": "Joshua",
+          "lastName": "Ullrich",
+          "jerseyNumber": 2,
           "position": "RF",
-          "age": 16,
+          "age": 15,
           "atBats": [
             {
               "id": 6,
@@ -5428,8 +5648,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 16,
@@ -5443,8 +5663,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 25,
@@ -5458,8 +5678,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 34,
@@ -5473,8 +5693,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 54,
@@ -5488,8 +5708,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 63,
@@ -5503,8 +5723,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 72,
@@ -5518,8 +5738,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 81,
@@ -5533,18 +5753,18 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 7,
-          "firstName": "Jess",
-          "lastName": "Von",
-          "jerseyNumber": 1,
+          "firstName": "Tyrell",
+          "lastName": "Wiegand",
+          "jerseyNumber": 3,
           "position": "CF",
           "age": 16,
           "atBats": [
@@ -5560,8 +5780,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 17,
@@ -5575,8 +5795,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 26,
@@ -5590,8 +5810,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 35,
@@ -5605,8 +5825,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 55,
@@ -5620,8 +5840,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 64,
@@ -5635,8 +5855,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 73,
@@ -5650,8 +5870,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 82,
@@ -5665,18 +5885,18 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 8,
-          "firstName": "Fabiola",
-          "lastName": "Rodriguez",
-          "jerseyNumber": 3,
+          "firstName": "Diamond",
+          "lastName": "Friesen",
+          "jerseyNumber": 6,
           "position": "C",
           "age": 16,
           "atBats": [
@@ -5692,8 +5912,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 18,
@@ -5707,8 +5927,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 27,
@@ -5722,8 +5942,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 36,
@@ -5737,8 +5957,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 56,
@@ -5752,8 +5972,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 65,
@@ -5767,8 +5987,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 74,
@@ -5782,8 +6002,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 83,
@@ -5797,20 +6017,20 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         },
         {
           "id": 9,
-          "firstName": "Arthur",
-          "lastName": "Schiller",
-          "jerseyNumber": 8,
+          "firstName": "Jean",
+          "lastName": "Tromp",
+          "jerseyNumber": 6,
           "position": "P",
-          "age": 15,
+          "age": 16,
           "atBats": [
             {
               "id": 9,
@@ -5824,8 +6044,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 19,
@@ -5839,8 +6059,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 28,
@@ -5854,8 +6074,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 37,
@@ -5869,8 +6089,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 57,
@@ -5884,8 +6104,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 66,
@@ -5899,8 +6119,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 75,
@@ -5914,8 +6134,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 84,
@@ -5929,26 +6149,26 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:50.000Z",
+          "updatedAt": "2020-02-16T15:58:50.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:51.000Z",
+      "updatedAt": "2020-02-16T15:58:51.000Z"
     }
   ],
   "players": [
     {
       "id": 1,
-      "firstName": "Shawn",
-      "lastName": "Ondricka",
-      "jerseyNumber": 72,
+      "firstName": "Allen",
+      "lastName": "Schmitt",
+      "jerseyNumber": 80,
       "position": "1B",
-      "age": 16,
+      "age": 15,
       "atBats": [
         {
           "id": 1,
@@ -5962,8 +6182,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 10,
@@ -5977,8 +6197,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 20,
@@ -5992,8 +6212,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 29,
@@ -6007,8 +6227,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 38,
@@ -6022,8 +6242,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 49,
@@ -6037,8 +6257,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 58,
@@ -6052,8 +6272,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 67,
@@ -6067,8 +6287,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 76,
@@ -6082,8 +6302,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 0,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 85,
@@ -6097,18 +6317,18 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 2,
-      "firstName": "Katelyn",
-      "lastName": "McCullough",
-      "jerseyNumber": 8,
+      "firstName": "Dorris",
+      "lastName": "Shields",
+      "jerseyNumber": 1,
       "position": "2B",
       "age": 15,
       "atBats": [
@@ -6124,8 +6344,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 11,
@@ -6139,8 +6359,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 21,
@@ -6154,8 +6374,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 30,
@@ -6169,8 +6389,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 39,
@@ -6184,8 +6404,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 50,
@@ -6199,8 +6419,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 59,
@@ -6214,8 +6434,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 68,
@@ -6229,8 +6449,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 77,
@@ -6244,18 +6464,18 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 3,
-      "firstName": "Aurelie",
-      "lastName": "Greenholt",
-      "jerseyNumber": 8,
+      "firstName": "Mya",
+      "lastName": "Friesen",
+      "jerseyNumber": 7,
       "position": "3B",
       "age": 15,
       "atBats": [
@@ -6271,8 +6491,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 12,
@@ -6286,8 +6506,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 22,
@@ -6301,8 +6521,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 31,
@@ -6316,8 +6536,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 51,
@@ -6331,8 +6551,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 60,
@@ -6346,8 +6566,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 69,
@@ -6361,8 +6581,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 0,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 78,
@@ -6376,17 +6596,17 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 4,
-      "firstName": "Cloyd",
-      "lastName": "Emmerich",
+      "firstName": "Jillian",
+      "lastName": "Becker",
       "jerseyNumber": 1,
       "position": "SS",
       "age": 16,
@@ -6403,8 +6623,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 13,
@@ -6418,8 +6638,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 23,
@@ -6433,8 +6653,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 32,
@@ -6448,8 +6668,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 52,
@@ -6463,8 +6683,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 61,
@@ -6478,8 +6698,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 70,
@@ -6493,8 +6713,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 79,
@@ -6508,20 +6728,20 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 5,
-      "firstName": "Shyanne",
-      "lastName": "Welch",
-      "jerseyNumber": 1,
+      "firstName": "Flavie",
+      "lastName": "Schmeler",
+      "jerseyNumber": 2,
       "position": "LF",
-      "age": 16,
+      "age": 15,
       "atBats": [
         {
           "id": 5,
@@ -6535,8 +6755,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 14,
@@ -6550,8 +6770,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 15,
@@ -6565,8 +6785,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 24,
@@ -6580,8 +6800,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 33,
@@ -6595,8 +6815,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 53,
@@ -6610,8 +6830,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 62,
@@ -6625,8 +6845,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 71,
@@ -6640,8 +6860,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 0,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 80,
@@ -6655,20 +6875,20 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 6,
-      "firstName": "Jettie",
-      "lastName": "Douglas",
-      "jerseyNumber": 6,
+      "firstName": "Joshua",
+      "lastName": "Ullrich",
+      "jerseyNumber": 2,
       "position": "RF",
-      "age": 16,
+      "age": 15,
       "atBats": [
         {
           "id": 6,
@@ -6682,8 +6902,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 16,
@@ -6697,8 +6917,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 25,
@@ -6712,8 +6932,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 34,
@@ -6727,8 +6947,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 54,
@@ -6742,8 +6962,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 63,
@@ -6757,8 +6977,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 72,
@@ -6772,8 +6992,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 81,
@@ -6787,18 +7007,18 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 7,
-      "firstName": "Jess",
-      "lastName": "Von",
-      "jerseyNumber": 1,
+      "firstName": "Tyrell",
+      "lastName": "Wiegand",
+      "jerseyNumber": 3,
       "position": "CF",
       "age": 16,
       "atBats": [
@@ -6814,8 +7034,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 17,
@@ -6829,8 +7049,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 26,
@@ -6844,8 +7064,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 1,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 35,
@@ -6859,8 +7079,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 55,
@@ -6874,8 +7094,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 0,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 64,
@@ -6889,8 +7109,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 73,
@@ -6904,8 +7124,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 82,
@@ -6919,18 +7139,18 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 8,
-      "firstName": "Fabiola",
-      "lastName": "Rodriguez",
-      "jerseyNumber": 3,
+      "firstName": "Diamond",
+      "lastName": "Friesen",
+      "jerseyNumber": 6,
       "position": "C",
       "age": 16,
       "atBats": [
@@ -6946,8 +7166,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 18,
@@ -6961,8 +7181,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 27,
@@ -6976,8 +7196,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 3,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 36,
@@ -6991,8 +7211,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 56,
@@ -7006,8 +7226,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 65,
@@ -7021,8 +7241,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 2,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 74,
@@ -7036,8 +7256,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 83,
@@ -7051,20 +7271,20 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 1,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 9,
-      "firstName": "Arthur",
-      "lastName": "Schiller",
-      "jerseyNumber": 8,
+      "firstName": "Jean",
+      "lastName": "Tromp",
+      "jerseyNumber": 6,
       "position": "P",
-      "age": 15,
+      "age": 16,
       "atBats": [
         {
           "id": 9,
@@ -7078,8 +7298,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 19,
@@ -7093,8 +7313,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 0,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 28,
@@ -7108,8 +7328,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 2,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 37,
@@ -7123,8 +7343,8 @@ export const jsonApiData = () => {
           "gameId": 1,
           "balls": 3,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 57,
@@ -7138,8 +7358,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 0,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 66,
@@ -7153,8 +7373,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 1,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 75,
@@ -7168,8 +7388,8 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 3,
           "strikes": 2,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 84,
@@ -7183,18 +7403,18 @@ export const jsonApiData = () => {
           "gameId": 2,
           "balls": 0,
           "strikes": 0,
-          "createdAt": "2020-02-15T16:57:09.000Z",
-          "updatedAt": "2020-02-15T16:57:09.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     }
   ],
   "games": [
     {
       "id": 1,
-      "name": "Subway Series",
+      "name": "Game 1",
       "teams": [
         {
           "id": 1,
@@ -7202,11 +7422,11 @@ export const jsonApiData = () => {
           "players": [
             {
               "id": 1,
-              "firstName": "Shawn",
-              "lastName": "Ondricka",
-              "jerseyNumber": 72,
+              "firstName": "Allen",
+              "lastName": "Schmitt",
+              "jerseyNumber": 80,
               "position": "1B",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 1,
@@ -7220,8 +7440,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 10,
@@ -7235,8 +7455,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 20,
@@ -7250,8 +7470,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 29,
@@ -7265,8 +7485,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 38,
@@ -7280,8 +7500,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 49,
@@ -7295,8 +7515,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 58,
@@ -7310,8 +7530,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 67,
@@ -7325,8 +7545,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 76,
@@ -7340,8 +7560,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 85,
@@ -7355,18 +7575,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 2,
-              "firstName": "Katelyn",
-              "lastName": "McCullough",
-              "jerseyNumber": 8,
+              "firstName": "Dorris",
+              "lastName": "Shields",
+              "jerseyNumber": 1,
               "position": "2B",
               "age": 15,
               "atBats": [
@@ -7382,8 +7602,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 11,
@@ -7397,8 +7617,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 21,
@@ -7412,8 +7632,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 30,
@@ -7427,8 +7647,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 39,
@@ -7442,8 +7662,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 50,
@@ -7457,8 +7677,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 59,
@@ -7472,8 +7692,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 68,
@@ -7487,8 +7707,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 77,
@@ -7502,18 +7722,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 3,
-              "firstName": "Aurelie",
-              "lastName": "Greenholt",
-              "jerseyNumber": 8,
+              "firstName": "Mya",
+              "lastName": "Friesen",
+              "jerseyNumber": 7,
               "position": "3B",
               "age": 15,
               "atBats": [
@@ -7529,8 +7749,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 12,
@@ -7544,8 +7764,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 22,
@@ -7559,8 +7779,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 31,
@@ -7574,8 +7794,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 51,
@@ -7589,8 +7809,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 60,
@@ -7604,8 +7824,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 69,
@@ -7619,8 +7839,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 78,
@@ -7634,17 +7854,17 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 4,
-              "firstName": "Cloyd",
-              "lastName": "Emmerich",
+              "firstName": "Jillian",
+              "lastName": "Becker",
               "jerseyNumber": 1,
               "position": "SS",
               "age": 16,
@@ -7661,8 +7881,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 13,
@@ -7676,8 +7896,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 23,
@@ -7691,8 +7911,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 32,
@@ -7706,8 +7926,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 52,
@@ -7721,8 +7941,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 61,
@@ -7736,8 +7956,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 70,
@@ -7751,8 +7971,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 79,
@@ -7766,20 +7986,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 5,
-              "firstName": "Shyanne",
-              "lastName": "Welch",
-              "jerseyNumber": 1,
+              "firstName": "Flavie",
+              "lastName": "Schmeler",
+              "jerseyNumber": 2,
               "position": "LF",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 5,
@@ -7793,8 +8013,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 14,
@@ -7808,8 +8028,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 15,
@@ -7823,8 +8043,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 24,
@@ -7838,8 +8058,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 33,
@@ -7853,8 +8073,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 53,
@@ -7868,8 +8088,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 62,
@@ -7883,8 +8103,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 71,
@@ -7898,8 +8118,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 80,
@@ -7913,20 +8133,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 6,
-              "firstName": "Jettie",
-              "lastName": "Douglas",
-              "jerseyNumber": 6,
+              "firstName": "Joshua",
+              "lastName": "Ullrich",
+              "jerseyNumber": 2,
               "position": "RF",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 6,
@@ -7940,8 +8160,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 16,
@@ -7955,8 +8175,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 25,
@@ -7970,8 +8190,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 34,
@@ -7985,8 +8205,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 54,
@@ -8000,8 +8220,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 63,
@@ -8015,8 +8235,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 72,
@@ -8030,8 +8250,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 81,
@@ -8045,18 +8265,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 7,
-              "firstName": "Jess",
-              "lastName": "Von",
-              "jerseyNumber": 1,
+              "firstName": "Tyrell",
+              "lastName": "Wiegand",
+              "jerseyNumber": 3,
               "position": "CF",
               "age": 16,
               "atBats": [
@@ -8072,8 +8292,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 17,
@@ -8087,8 +8307,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 26,
@@ -8102,8 +8322,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 35,
@@ -8117,8 +8337,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 55,
@@ -8132,8 +8352,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 64,
@@ -8147,8 +8367,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 73,
@@ -8162,8 +8382,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 82,
@@ -8177,18 +8397,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 8,
-              "firstName": "Fabiola",
-              "lastName": "Rodriguez",
-              "jerseyNumber": 3,
+              "firstName": "Diamond",
+              "lastName": "Friesen",
+              "jerseyNumber": 6,
               "position": "C",
               "age": 16,
               "atBats": [
@@ -8204,8 +8424,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 18,
@@ -8219,8 +8439,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 27,
@@ -8234,8 +8454,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 36,
@@ -8249,8 +8469,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 56,
@@ -8264,8 +8484,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 65,
@@ -8279,8 +8499,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 74,
@@ -8294,8 +8514,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 83,
@@ -8309,20 +8529,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 9,
-              "firstName": "Arthur",
-              "lastName": "Schiller",
-              "jerseyNumber": 8,
+              "firstName": "Jean",
+              "lastName": "Tromp",
+              "jerseyNumber": 6,
               "position": "P",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 9,
@@ -8336,8 +8556,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 19,
@@ -8351,8 +8571,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 28,
@@ -8366,8 +8586,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 37,
@@ -8381,8 +8601,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 57,
@@ -8396,8 +8616,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 66,
@@ -8411,8 +8631,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 75,
@@ -8426,8 +8646,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 84,
@@ -8441,16 +8661,16 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 2,
@@ -8458,11 +8678,11 @@ export const jsonApiData = () => {
           "players": [
             {
               "id": 10,
-              "firstName": "Tanner",
-              "lastName": "Fay",
-              "jerseyNumber": 7,
+              "firstName": "Raoul",
+              "lastName": "VonRueden",
+              "jerseyNumber": 5,
               "position": "1B",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 40,
@@ -8476,8 +8696,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 86,
@@ -8491,20 +8711,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 11,
-              "firstName": "Thurman",
-              "lastName": "Jast",
-              "jerseyNumber": 9,
+              "firstName": "Lupe",
+              "lastName": "Kirlin",
+              "jerseyNumber": 4,
               "position": "2B",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 41,
@@ -8518,8 +8738,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 87,
@@ -8533,20 +8753,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 12,
-              "firstName": "Ronny",
-              "lastName": "Schmitt",
-              "jerseyNumber": 7,
+              "firstName": "Demario",
+              "lastName": "Bartell",
+              "jerseyNumber": 1,
               "position": "3B",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 42,
@@ -8560,8 +8780,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 89,
@@ -8575,20 +8795,95 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 90,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 91,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 92,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 93,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 94,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 13,
-              "firstName": "Syble",
-              "lastName": "Funk",
-              "jerseyNumber": 5,
+              "firstName": "Mireya",
+              "lastName": "Goyette",
+              "jerseyNumber": 1,
               "position": "SS",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 43,
@@ -8602,20 +8897,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 14,
-              "firstName": "Zora",
-              "lastName": "O'Kon",
-              "jerseyNumber": 7,
+              "firstName": "Hassan",
+              "lastName": "Bartoletti",
+              "jerseyNumber": 4,
               "position": "LF",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 44,
@@ -8629,8 +8924,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 88,
@@ -8644,18 +8939,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 15,
-              "firstName": "Flossie",
-              "lastName": "Schultz",
-              "jerseyNumber": 5,
+              "firstName": "Adaline",
+              "lastName": "Tromp",
+              "jerseyNumber": 7,
               "position": "RF",
               "age": 16,
               "atBats": [
@@ -8671,18 +8966,18 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 16,
-              "firstName": "Darren",
-              "lastName": "Christiansen",
-              "jerseyNumber": 4,
+              "firstName": "Kylie",
+              "lastName": "Stark",
+              "jerseyNumber": 9,
               "position": "CF",
               "age": 16,
               "atBats": [
@@ -8698,17 +8993,17 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 17,
-              "firstName": "Ryleigh",
-              "lastName": "Strosin",
+              "firstName": "Cleta",
+              "lastName": "Fadel",
               "jerseyNumber": 8,
               "position": "C",
               "age": 15,
@@ -8725,20 +9020,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 18,
-              "firstName": "Della",
-              "lastName": "Anderson",
-              "jerseyNumber": 3,
+              "firstName": "Destini",
+              "lastName": "Koss",
+              "jerseyNumber": 2,
               "position": "P",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 48,
@@ -8752,16 +9047,16 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
       "innings": [
@@ -8781,8 +9076,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 2,
@@ -8795,8 +9090,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 3,
@@ -8809,8 +9104,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 4,
@@ -8823,8 +9118,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 40,
@@ -8837,8 +9132,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 41,
@@ -8851,8 +9146,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 42,
@@ -8865,12 +9160,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 2,
@@ -8888,8 +9183,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 6,
@@ -8902,8 +9197,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 7,
@@ -8916,8 +9211,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 8,
@@ -8930,8 +9225,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 9,
@@ -8944,8 +9239,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 43,
@@ -8958,8 +9253,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 44,
@@ -8972,8 +9267,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 45,
@@ -8986,8 +9281,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 46,
@@ -9000,8 +9295,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 47,
@@ -9014,8 +9309,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 48,
@@ -9028,12 +9323,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 3,
@@ -9051,8 +9346,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 11,
@@ -9065,8 +9360,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 12,
@@ -9079,8 +9374,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 13,
@@ -9093,8 +9388,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 14,
@@ -9107,8 +9402,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 15,
@@ -9121,8 +9416,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 16,
@@ -9135,12 +9430,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 4,
@@ -9158,8 +9453,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 18,
@@ -9172,8 +9467,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 19,
@@ -9186,8 +9481,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 20,
@@ -9200,12 +9495,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 5,
@@ -9223,8 +9518,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 22,
@@ -9237,8 +9532,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 23,
@@ -9251,12 +9546,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 6,
@@ -9274,8 +9569,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 25,
@@ -9288,8 +9583,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 26,
@@ -9302,8 +9597,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 27,
@@ -9316,12 +9611,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 7,
@@ -9339,8 +9634,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 29,
@@ -9353,8 +9648,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 30,
@@ -9367,12 +9662,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 8,
@@ -9390,8 +9685,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 32,
@@ -9404,8 +9699,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 33,
@@ -9418,8 +9713,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 34,
@@ -9432,8 +9727,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 35,
@@ -9446,12 +9741,12 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 9,
@@ -9469,8 +9764,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 37,
@@ -9483,8 +9778,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 38,
@@ -9497,8 +9792,8 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 39,
@@ -9511,20 +9806,20 @@ export const jsonApiData = () => {
               "gameId": 1,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:50.000Z",
+      "updatedAt": "2020-02-16T15:58:50.000Z"
     },
     {
       "id": 2,
-      "name": "Super Bowl",
+      "name": "Game 2",
       "teams": [
         {
           "id": 1,
@@ -9532,11 +9827,11 @@ export const jsonApiData = () => {
           "players": [
             {
               "id": 1,
-              "firstName": "Shawn",
-              "lastName": "Ondricka",
-              "jerseyNumber": 72,
+              "firstName": "Allen",
+              "lastName": "Schmitt",
+              "jerseyNumber": 80,
               "position": "1B",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 1,
@@ -9550,8 +9845,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 10,
@@ -9565,8 +9860,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 20,
@@ -9580,8 +9875,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 29,
@@ -9595,8 +9890,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 38,
@@ -9610,8 +9905,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 49,
@@ -9625,8 +9920,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 58,
@@ -9640,8 +9935,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 67,
@@ -9655,8 +9950,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 76,
@@ -9670,8 +9965,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 85,
@@ -9685,18 +9980,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 2,
-              "firstName": "Katelyn",
-              "lastName": "McCullough",
-              "jerseyNumber": 8,
+              "firstName": "Dorris",
+              "lastName": "Shields",
+              "jerseyNumber": 1,
               "position": "2B",
               "age": 15,
               "atBats": [
@@ -9712,8 +10007,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 11,
@@ -9727,8 +10022,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 21,
@@ -9742,8 +10037,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 30,
@@ -9757,8 +10052,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 39,
@@ -9772,8 +10067,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 50,
@@ -9787,8 +10082,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 59,
@@ -9802,8 +10097,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 68,
@@ -9817,8 +10112,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 77,
@@ -9832,18 +10127,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 3,
-              "firstName": "Aurelie",
-              "lastName": "Greenholt",
-              "jerseyNumber": 8,
+              "firstName": "Mya",
+              "lastName": "Friesen",
+              "jerseyNumber": 7,
               "position": "3B",
               "age": 15,
               "atBats": [
@@ -9859,8 +10154,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 12,
@@ -9874,8 +10169,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 22,
@@ -9889,8 +10184,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 31,
@@ -9904,8 +10199,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 51,
@@ -9919,8 +10214,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 60,
@@ -9934,8 +10229,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 69,
@@ -9949,8 +10244,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 78,
@@ -9964,17 +10259,17 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 4,
-              "firstName": "Cloyd",
-              "lastName": "Emmerich",
+              "firstName": "Jillian",
+              "lastName": "Becker",
               "jerseyNumber": 1,
               "position": "SS",
               "age": 16,
@@ -9991,8 +10286,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 13,
@@ -10006,8 +10301,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 23,
@@ -10021,8 +10316,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 32,
@@ -10036,8 +10331,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 52,
@@ -10051,8 +10346,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 61,
@@ -10066,8 +10361,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 70,
@@ -10081,8 +10376,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 79,
@@ -10096,20 +10391,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 5,
-              "firstName": "Shyanne",
-              "lastName": "Welch",
-              "jerseyNumber": 1,
+              "firstName": "Flavie",
+              "lastName": "Schmeler",
+              "jerseyNumber": 2,
               "position": "LF",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 5,
@@ -10123,8 +10418,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 14,
@@ -10138,8 +10433,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 15,
@@ -10153,8 +10448,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 24,
@@ -10168,8 +10463,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 33,
@@ -10183,8 +10478,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 53,
@@ -10198,8 +10493,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 62,
@@ -10213,8 +10508,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 71,
@@ -10228,8 +10523,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 80,
@@ -10243,20 +10538,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 6,
-              "firstName": "Jettie",
-              "lastName": "Douglas",
-              "jerseyNumber": 6,
+              "firstName": "Joshua",
+              "lastName": "Ullrich",
+              "jerseyNumber": 2,
               "position": "RF",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 6,
@@ -10270,8 +10565,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 16,
@@ -10285,8 +10580,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 25,
@@ -10300,8 +10595,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 34,
@@ -10315,8 +10610,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 54,
@@ -10330,8 +10625,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 63,
@@ -10345,8 +10640,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 72,
@@ -10360,8 +10655,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 81,
@@ -10375,18 +10670,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 7,
-              "firstName": "Jess",
-              "lastName": "Von",
-              "jerseyNumber": 1,
+              "firstName": "Tyrell",
+              "lastName": "Wiegand",
+              "jerseyNumber": 3,
               "position": "CF",
               "age": 16,
               "atBats": [
@@ -10402,8 +10697,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 17,
@@ -10417,8 +10712,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 26,
@@ -10432,8 +10727,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 35,
@@ -10447,8 +10742,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 55,
@@ -10462,8 +10757,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 64,
@@ -10477,8 +10772,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 73,
@@ -10492,8 +10787,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 82,
@@ -10507,18 +10802,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 8,
-              "firstName": "Fabiola",
-              "lastName": "Rodriguez",
-              "jerseyNumber": 3,
+              "firstName": "Diamond",
+              "lastName": "Friesen",
+              "jerseyNumber": 6,
               "position": "C",
               "age": 16,
               "atBats": [
@@ -10534,8 +10829,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 18,
@@ -10549,8 +10844,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 27,
@@ -10564,8 +10859,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 36,
@@ -10579,8 +10874,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 56,
@@ -10594,8 +10889,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 65,
@@ -10609,8 +10904,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 74,
@@ -10624,8 +10919,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 83,
@@ -10639,20 +10934,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 9,
-              "firstName": "Arthur",
-              "lastName": "Schiller",
-              "jerseyNumber": 8,
+              "firstName": "Jean",
+              "lastName": "Tromp",
+              "jerseyNumber": 6,
               "position": "P",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 9,
@@ -10666,8 +10961,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 19,
@@ -10681,8 +10976,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 28,
@@ -10696,8 +10991,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 37,
@@ -10711,8 +11006,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 57,
@@ -10726,8 +11021,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 66,
@@ -10741,8 +11036,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 75,
@@ -10756,8 +11051,8 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 3,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 84,
@@ -10771,16 +11066,16 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 0,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 2,
@@ -10788,11 +11083,11 @@ export const jsonApiData = () => {
           "players": [
             {
               "id": 10,
-              "firstName": "Tanner",
-              "lastName": "Fay",
-              "jerseyNumber": 7,
+              "firstName": "Raoul",
+              "lastName": "VonRueden",
+              "jerseyNumber": 5,
               "position": "1B",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 40,
@@ -10806,8 +11101,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 86,
@@ -10821,20 +11116,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 11,
-              "firstName": "Thurman",
-              "lastName": "Jast",
-              "jerseyNumber": 9,
+              "firstName": "Lupe",
+              "lastName": "Kirlin",
+              "jerseyNumber": 4,
               "position": "2B",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 41,
@@ -10848,8 +11143,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 1,
                   "strikes": 1,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 87,
@@ -10863,20 +11158,20 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 12,
-              "firstName": "Ronny",
-              "lastName": "Schmitt",
-              "jerseyNumber": 7,
+              "firstName": "Demario",
+              "lastName": "Bartell",
+              "jerseyNumber": 1,
               "position": "3B",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 42,
@@ -10890,8 +11185,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 89,
@@ -10905,20 +11200,95 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 90,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 91,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 92,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 93,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
+                },
+                {
+                  "id": 94,
+                  "playerId": 12,
+                  "runsBattedIn": 0,
+                  "basePosition": 1,
+                  "fieldPosition": "1B",
+                  "baseValue": "1B",
+                  "isHit": true,
+                  "inningNumber": 7,
+                  "gameId": 2,
+                  "balls": 1,
+                  "strikes": 3,
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 13,
-              "firstName": "Syble",
-              "lastName": "Funk",
-              "jerseyNumber": 5,
+              "firstName": "Mireya",
+              "lastName": "Goyette",
+              "jerseyNumber": 1,
               "position": "SS",
-              "age": 15,
+              "age": 16,
               "atBats": [
                 {
                   "id": 43,
@@ -10932,20 +11302,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 14,
-              "firstName": "Zora",
-              "lastName": "O'Kon",
-              "jerseyNumber": 7,
+              "firstName": "Hassan",
+              "lastName": "Bartoletti",
+              "jerseyNumber": 4,
               "position": "LF",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 44,
@@ -10959,8 +11329,8 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 },
                 {
                   "id": 88,
@@ -10974,18 +11344,18 @@ export const jsonApiData = () => {
                   "gameId": 2,
                   "balls": 1,
                   "strikes": 3,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 15,
-              "firstName": "Flossie",
-              "lastName": "Schultz",
-              "jerseyNumber": 5,
+              "firstName": "Adaline",
+              "lastName": "Tromp",
+              "jerseyNumber": 7,
               "position": "RF",
               "age": 16,
               "atBats": [
@@ -11001,18 +11371,18 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 0,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 16,
-              "firstName": "Darren",
-              "lastName": "Christiansen",
-              "jerseyNumber": 4,
+              "firstName": "Kylie",
+              "lastName": "Stark",
+              "jerseyNumber": 9,
               "position": "CF",
               "age": 16,
               "atBats": [
@@ -11028,17 +11398,17 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 2,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 17,
-              "firstName": "Ryleigh",
-              "lastName": "Strosin",
+              "firstName": "Cleta",
+              "lastName": "Fadel",
               "jerseyNumber": 8,
               "position": "C",
               "age": 15,
@@ -11055,20 +11425,20 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             },
             {
               "id": 18,
-              "firstName": "Della",
-              "lastName": "Anderson",
-              "jerseyNumber": 3,
+              "firstName": "Destini",
+              "lastName": "Koss",
+              "jerseyNumber": 2,
               "position": "P",
-              "age": 16,
+              "age": 15,
               "atBats": [
                 {
                   "id": 48,
@@ -11082,16 +11452,16 @@ export const jsonApiData = () => {
                   "gameId": 1,
                   "balls": 0,
                   "strikes": 2,
-                  "createdAt": "2020-02-15T16:57:09.000Z",
-                  "updatedAt": "2020-02-15T16:57:09.000Z"
+                  "createdAt": "2020-02-16T15:58:51.000Z",
+                  "updatedAt": "2020-02-16T15:58:51.000Z"
                 }
               ],
-              "createdAt": "2020-02-15T16:57:08.000Z",
-              "updatedAt": "2020-02-15T16:57:08.000Z"
+              "createdAt": "2020-02-16T15:58:50.000Z",
+              "updatedAt": "2020-02-16T15:58:50.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
       "innings": [
@@ -11111,8 +11481,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 50,
@@ -11125,8 +11495,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 51,
@@ -11139,8 +11509,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 52,
@@ -11153,8 +11523,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 53,
@@ -11167,8 +11537,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 86,
@@ -11181,8 +11551,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 87,
@@ -11195,12 +11565,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 11,
@@ -11218,8 +11588,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 55,
@@ -11232,8 +11602,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 56,
@@ -11246,8 +11616,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 57,
@@ -11260,8 +11630,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 58,
@@ -11274,8 +11644,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 59,
@@ -11288,12 +11658,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 12,
@@ -11311,8 +11681,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 61,
@@ -11325,8 +11695,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 62,
@@ -11339,12 +11709,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 13,
@@ -11362,8 +11732,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 64,
@@ -11376,8 +11746,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 65,
@@ -11390,8 +11760,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 88,
@@ -11404,12 +11774,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 14,
@@ -11427,8 +11797,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 67,
@@ -11441,8 +11811,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 68,
@@ -11455,8 +11825,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 69,
@@ -11469,8 +11839,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 70,
@@ -11483,12 +11853,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 15,
@@ -11506,8 +11876,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 72,
@@ -11520,8 +11890,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 73,
@@ -11534,8 +11904,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 74,
@@ -11548,8 +11918,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 75,
@@ -11562,12 +11932,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 16,
@@ -11585,8 +11955,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 77,
@@ -11599,8 +11969,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 78,
@@ -11613,8 +11983,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 79,
@@ -11627,8 +11997,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 89,
@@ -11641,12 +12011,82 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
+            },
+            {
+              "id": 90,
+              "playerId": 12,
+              "runsBattedIn": 0,
+              "basePosition": 1,
+              "fieldPosition": "1B",
+              "isHit": true,
+              "inningNumber": 7,
+              "gameId": 2,
+              "balls": 1,
+              "strikes": 3,
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
+            },
+            {
+              "id": 91,
+              "playerId": 12,
+              "runsBattedIn": 0,
+              "basePosition": 1,
+              "fieldPosition": "1B",
+              "isHit": true,
+              "inningNumber": 7,
+              "gameId": 2,
+              "balls": 1,
+              "strikes": 3,
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
+            },
+            {
+              "id": 92,
+              "playerId": 12,
+              "runsBattedIn": 0,
+              "basePosition": 1,
+              "fieldPosition": "1B",
+              "isHit": true,
+              "inningNumber": 7,
+              "gameId": 2,
+              "balls": 1,
+              "strikes": 3,
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
+            },
+            {
+              "id": 93,
+              "playerId": 12,
+              "runsBattedIn": 0,
+              "basePosition": 1,
+              "fieldPosition": "1B",
+              "isHit": true,
+              "inningNumber": 7,
+              "gameId": 2,
+              "balls": 1,
+              "strikes": 3,
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
+            },
+            {
+              "id": 94,
+              "playerId": 12,
+              "runsBattedIn": 0,
+              "basePosition": 1,
+              "fieldPosition": "1B",
+              "isHit": true,
+              "inningNumber": 7,
+              "gameId": 2,
+              "balls": 1,
+              "strikes": 3,
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 17,
@@ -11664,8 +12104,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 2,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 81,
@@ -11678,8 +12118,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 3,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 82,
@@ -11692,12 +12132,12 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 1,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         },
         {
           "id": 18,
@@ -11715,8 +12155,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 2,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 84,
@@ -11729,8 +12169,8 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 0,
               "strikes": 0,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             },
             {
               "id": 85,
@@ -11743,16 +12183,16 @@ export const jsonApiData = () => {
               "gameId": 2,
               "balls": 1,
               "strikes": 3,
-              "createdAt": "2020-02-15T16:57:09.000Z",
-              "updatedAt": "2020-02-15T16:57:09.000Z"
+              "createdAt": "2020-02-16T15:58:51.000Z",
+              "updatedAt": "2020-02-16T15:58:51.000Z"
             }
           ],
-          "createdAt": "2020-02-15T16:57:08.000Z",
-          "updatedAt": "2020-02-15T16:57:08.000Z"
+          "createdAt": "2020-02-16T15:58:51.000Z",
+          "updatedAt": "2020-02-16T15:58:51.000Z"
         }
       ],
-      "createdAt": "2020-02-15T16:57:08.000Z",
-      "updatedAt": "2020-02-15T16:57:08.000Z"
+      "createdAt": "2020-02-16T15:58:51.000Z",
+      "updatedAt": "2020-02-16T15:58:51.000Z"
     }
   ]
 }

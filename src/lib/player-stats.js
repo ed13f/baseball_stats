@@ -1,10 +1,6 @@
-// import React from 'react'
-
 // Players - AtBats
-export const playerAtBats = ( player ) => {
-	// debugger
-	return player.atBats ? player.atBats : []
-}
+export const playerAtBats = ( player ) => player.atBats ? player.atBats : []
+
 export const playersAtBatsMulti = ( players ) => {
 	let atBatsArray = []
 	players.forEach((player) => atBatsArray = atBatsArray.concat(playerAtBats(player)));
@@ -12,10 +8,8 @@ export const playersAtBatsMulti = ( players ) => {
 }
 
 // Players - Hits
-export const playerHits = ( player ) => {
-	let totalHits = player.atBats.filter(atBat => atBat.isHit === true)
-	return totalHits
-}
+export const playerHits = ( player ) => player.atBats.filter(atBat => atBat.isHit === true)
+
 export const playerHitsMulti = ( players ) => {
 	let totalHits = []
 	let hits = []
@@ -29,13 +23,12 @@ export const playerHitsMulti = ( players ) => {
 //On Base Percentate
 export const onBasePercentage = (player) =>{
 	let atBats = player.atBats
-	// debugger
 	let onBase = atBats.filter(atBat => atBat.basePosition > 0);
 	let percentage = onBase.length/atBats.length
 	let final = (percentage  * 1000).toFixed(0)
 	return !isNaN(final) ? final : 0;
-	// return percentage 
 }
+
 export const onBasePercentageMulti = ( players ) => {
 	let totalOnBasePercentage = 0
 	players.forEach((player) => ( totalOnBasePercentage += Number(onBasePercentage(player))))
@@ -51,13 +44,10 @@ export const battingAverage = (player) => {
 	let hitsCount = hits.length
 	let average = hitsCount/atBatsCount
 	let final = (average * 1000).toFixed(0)
-	
 	return !isNaN(final) ? final : 0;
-	// return average 
 }
 export const battingAverageMulti = (players) => {
 	let totalBattingAverages = 0
-	// debugger
 	players.forEach((player) => ( totalBattingAverages += Number(battingAverage(player))))
 	let finalPercentage = totalBattingAverages / players.length
 	return (finalPercentage ? (finalPercentage).toFixed(0) : "0");
@@ -67,10 +57,10 @@ export const battingAverageMulti = (players) => {
 export const runsBattedIn = (player) => {
 	let atBats = player.atBats
 	let rbiCount = 0;
-	// debugger
 	atBats.forEach(function(atBat){ rbiCount += atBat.runsBattedIn })
 	return rbiCount ? rbiCount : 0;
 }
+
 export const runsBattedInMulti = ( players ) => {
 	let rbiCount = 0
 	players.forEach((player) => ( rbiCount += runsBattedIn(player)))
@@ -83,6 +73,7 @@ export const totalHitsByType = (player, hitValueType) => {
 	let hits = atBats.filter(atBat => atBat.baseValue === hitValueType);
 	return hits.length
 }
+
 export const totalHitsByTypeMulti = ( players, hitValueType ) => {
 	let rbiCount = 0;
 	players.forEach((player) => ( rbiCount += totalHitsByType(player, hitValueType )))

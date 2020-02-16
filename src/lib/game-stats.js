@@ -1,6 +1,3 @@
-// import React from 'react'
-// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType, onBasePercentageMulti, battingAverageMulti, runsBattedInMulti, totalHitsByTypeMulti } from './player-stats';
-// import {  runsBattedIn } from './team-stats';
 import { inningsAtBatsMulti } from './team-stats';
 
 export const gameAtBats = ( game ) => {
@@ -16,15 +13,9 @@ export const gameAtBatsByTeam = ( game, team ) => {
 	return teamHits
 }
 
-export const inningHits = ( inning ) => {
-	let hits = inning.atBats.filter(atBat => atBat.isHit === true)
-	return hits
-}
+export const inningHits = ( inning ) => inning.atBats.filter(atBat => atBat.isHit === true)
 
-export const inningRuns = ( inning ) => {
-	let hits = inning.atBats.filter(atBat => atBat.basePosition === 4)
-	return hits
-}
+export const inningRuns = ( inning ) => inning.atBats.filter(atBat => atBat.basePosition === 4)
 
 export const inningRunsByTeam = ( inning, team ) => {
 	let atBats = inning.atBats
@@ -47,14 +38,3 @@ export const gameErrorsByTeam = ( game, team ) => {
 	let atBats = gameAtBatsByTeam(game, team )
 	return atBats.filter(atBat => atBat.baseValue === "ER")
 }
-
-
-
-
-
-
-
-
-
-
-

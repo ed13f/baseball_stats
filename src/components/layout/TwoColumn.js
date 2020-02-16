@@ -3,7 +3,6 @@ import React from 'react';
 
 const TwoColumnLayout = (props) => {
   return (
-      
     <section className="two-column wrapper-max display-flex">
     	<div className="left col">
         	<div>

@@ -1,30 +1,30 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+
 
 class BallMaker extends PureComponent {
 
-	displayAtBat = ( ) => {
-		return "Blue"
-	}
+	static propTypes = { atBat: PropTypes.object }
 
-	isHit = () =>{
+	isHit = ( atBat ) =>{
 		let bat = ""
-		if(this.props.atBat){bat = this.props.atBat.isHit}
+		if(atBat){bat = atBat.isHit}
 		return bat
 	}
 
-	hitPosition = ( ) => {
+	hitPosition = ( atBat ) => {
 		let bat = ""
-		if(this.props.atBat){bat = this.props.atBat.fieldPosition}
+		if(atBat){bat = atBat.fieldPosition}
 		return bat
 	}
 
-	classBuilder = ( ) => {
+	classBuilder = ( atBat ) => {
 		let classPrefix = ["neg-lg", "neg-md", "neg-sm", "zero", "sm", "md", "lg"]
-		let hitPosition = this.hitPosition()
+		let hitPosition = this.hitPosition(atBat)
 		hitPosition += hitPosition === "1B" ? " one-B" : "";
 		hitPosition += hitPosition === "2B" ? " two-B" : "";
 		hitPosition += hitPosition === "3B" ? " three-B" : "";
-		let isHit = this.isHit() ? "hit" : "out"
+		let isHit = this.isHit(atBat) ? "hit" : "out"
 		let positionX = classPrefix[Math.floor(Math.random() * classPrefix.length)];
 		let positionY = classPrefix[Math.floor(Math.random() * classPrefix.length)];
 		return "ball-marker " + hitPosition + " " + isHit + " " + positionX + "-transform-x " + positionY + "-transform-y"
@@ -32,14 +32,13 @@ class BallMaker extends PureComponent {
 
 	render(){
 
-		// const {
-		// 	id
-		// } = this.props;
+		const { atBat } = this.props;
 
 		return (
-			<i className={this.classBuilder()}></i>
+			<i className={this.classBuilder(atBat)}></i>
 		);
 	}
 }
+
 
 export default BallMaker

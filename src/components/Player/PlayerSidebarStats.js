@@ -1,21 +1,8 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
-// import { Consumer } from '../Context';
-// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
 import { playerAtBats, playerHits, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType } from '../../lib/player-stats';
 
 
-
 class PlayerSidebarStats extends PureComponent {
-
-	// static propTypes = {
-		// firstName: PropTypes.string,
-		// lastName: PropTypes.string,
-		// jerseyNumber: PropTypes.number,
-		// age: PropTypes.number,
-		// position: PropTypes.string,
-		// id: PropTypes.number
-	// }
 
 	findPlayer = (props) =>{
 		let players = props.players
@@ -25,23 +12,13 @@ class PlayerSidebarStats extends PureComponent {
 	}
 
 	render(){
-	  	// const {
-	  		// atBatInFocus,
-			// players,
-			// gameInFocus,
-			// player = this.findPlayer(this.props),
-			// atBats
-		// } = this.props;
 
-		if (!this.props.atBatInFocus.id) {
-            return <div />
-        }
+		if (!this.props.atBatInFocus.id) { return <div /> }
 
 		return (
 		    <article className="player-sidebar-stats">
-
-		    <h2>Player Stats</h2>
-    			<div key>
+		    	<h2>Player Stats</h2>
+    			<div>
 	    			<div className="row display-flex">
 	    				<div className="stat flex-1">
 	    					<span className="header">AVG:</span> <span>{ battingAverage(this.findPlayer(this.props)) }</span>
@@ -57,7 +34,6 @@ class PlayerSidebarStats extends PureComponent {
 	    				<div className="stat flex-1">
 	    					<span className="header">Hits:</span> <span>{ playerHits(this.findPlayer(this.props)).length }</span>
 	    				</div>
-	    				
 	    			</div>
 	    			<div className="row display-flex">
 	    				<div className="stat flex-1">
@@ -74,7 +50,6 @@ class PlayerSidebarStats extends PureComponent {
 	    				<div className="stat flex-1">
 	    					<span className="header">HR:</span> <span>{ totalHitsByType(this.findPlayer(this.props), "HR") }</span>
 	    				</div>
-	    				
 	    			</div>
 	    			<div className="row display-flex">
 	    				<div className="stat flex-1">
@@ -99,5 +74,4 @@ class PlayerSidebarStats extends PureComponent {
 }
 
   
-
 export default PlayerSidebarStats

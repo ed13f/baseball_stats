@@ -1,10 +1,8 @@
-// import React from 'react'
-// import { playerAtBats, playersAtBatsMulti, playerHits, playerHitsMulti, onBasePercentage, battingAverage, runsBattedIn, totalHitsByType, onBasePercentageMulti, battingAverageMulti, runsBattedInMulti, totalHitsByTypeMulti } from './player-stats';
 import { playersAtBatsMulti, playerHitsMulti, onBasePercentageMulti, battingAverageMulti, runsBattedInMulti, totalHitsByTypeMulti } from './player-stats';
+
 //Game Innings
-export const gameInnings = ( game ) => {
-	return game.innings
-}
+export const gameInnings = ( game ) => game.innings
+
 export const gamesInningsMulti = ( games ) => {
 	let inningsArray = []
 	games.forEach((game) => inningsArray = inningsArray.concat(gameInnings(game)));
@@ -12,9 +10,8 @@ export const gamesInningsMulti = ( games ) => {
 }
 
 //Innings AtBats
-export const inningAtbats = ( inning ) => {
-	return inning.atBats
-}
+export const inningAtbats = ( inning ) => inning.atBats
+
 export const inningsAtBatsMulti = ( innings ) => {
 	let atBatsArray = []
 	innings.forEach((inning) => atBatsArray = atBatsArray.concat(inningAtbats(inning)));
