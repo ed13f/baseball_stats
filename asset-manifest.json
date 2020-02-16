@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/baseball_stats/static/css/main.c513b1d4.chunk.css",
-    "main.js": "/baseball_stats/static/js/main.abe37389.chunk.js",
-    "main.js.map": "/baseball_stats/static/js/main.abe37389.chunk.js.map",
+    "main.css": "/baseball_stats/static/css/main.5b21837c.chunk.css",
+    "main.js": "/baseball_stats/static/js/main.3c4b1d64.chunk.js",
+    "main.js.map": "/baseball_stats/static/js/main.3c4b1d64.chunk.js.map",
     "runtime-main.js": "/baseball_stats/static/js/runtime-main.38ae4df6.js",
     "runtime-main.js.map": "/baseball_stats/static/js/runtime-main.38ae4df6.js.map",
-    "static/js/2.5ec01d8c.chunk.js": "/baseball_stats/static/js/2.5ec01d8c.chunk.js",
-    "static/js/2.5ec01d8c.chunk.js.map": "/baseball_stats/static/js/2.5ec01d8c.chunk.js.map",
+    "static/js/2.3eb9fbf2.chunk.js": "/baseball_stats/static/js/2.3eb9fbf2.chunk.js",
+    "static/js/2.3eb9fbf2.chunk.js.map": "/baseball_stats/static/js/2.3eb9fbf2.chunk.js.map",
     "index.html": "/baseball_stats/index.html",
-    "precache-manifest.ecc0137db946457a3bcb0223efe641c2.js": "/baseball_stats/precache-manifest.ecc0137db946457a3bcb0223efe641c2.js",
+    "precache-manifest.6568f7beceac865bea6f281d58202dcf.js": "/baseball_stats/precache-manifest.6568f7beceac865bea6f281d58202dcf.js",
     "service-worker.js": "/baseball_stats/service-worker.js",
-    "static/css/main.c513b1d4.chunk.css.map": "/baseball_stats/static/css/main.c513b1d4.chunk.css.map"
+    "static/css/main.5b21837c.chunk.css.map": "/baseball_stats/static/css/main.5b21837c.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.38ae4df6.js",
-    "static/js/2.5ec01d8c.chunk.js",
-    "static/css/main.c513b1d4.chunk.css",
-    "static/js/main.abe37389.chunk.js"
+    "static/js/2.3eb9fbf2.chunk.js",
+    "static/css/main.5b21837c.chunk.css",
+    "static/js/main.3c4b1d64.chunk.js"
   ]
 }
